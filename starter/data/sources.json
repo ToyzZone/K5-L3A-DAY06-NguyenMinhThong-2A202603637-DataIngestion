@@ -1,0 +1,101 @@
+[
+  {
+    "source_id": "fm7-22-2020",
+    "title": "FM 7-22 Holistic Health and Fitness",
+    "publisher": "US Army",
+    "year": 2020,
+    "version": "1 October 2020 (supersedes chapters 1-6 and appendix D of FM 7-22, 26 October 2012)",
+    "file": "fm7-22-2020.pdf",
+    "url": "https://arotc.illinoisstate.edu/downloads/resources/FM_7-22_October%202020.pdf",
+    "official_url": "https://armypubs.army.mil/",
+    "license_or_permission": "Cover (p1): 'DISTRIBUTION RESTRICTION: Approved for public release; distribution is unlimited.' Acknowledgements (p13) note third-party material reproduced with permission (Pose Method running drills in ch.7; parts of ch.8 from the SOF Nutrition Guide); used here only for non-commercial coursework retrieval.",
+    "accessed_at": "2026-11-13",
+    "sections": [
+      [19, 30, "Chapter 1. Principles and Elements"],
+      [31, 36, "Chapter 2. Phases"],
+      [37, 42, "Chapter 3. Domains"],
+      [43, 52, "Chapter 4. Physiology"],
+      [53, 58, "Chapter 5. Periodization"],
+      [59, 66, "Chapter 6. Program Design"],
+      [67, 80, "Chapter 7. Physical Readiness"],
+      [81, 98, "Chapter 8. Nutritional Readiness"],
+      [99, 110, "Chapter 9. Mental Readiness"],
+      [111, 120, "Chapter 10. Spiritual Readiness"],
+      [121, 134, "Chapter 11. Sleep Readiness"],
+      [135, 152, "Chapter 12. Special Conditioning"],
+      [153, 160, "Chapter 13. Holistic Health and Fitness Coaching"],
+      [161, 218, "Chapter 14. Holistic Health and Fitness Schedules"]
+    ],
+    "exclude_pages": {},
+    "furniture": [
+      "^1 October 2020 FM 7-22 \\d+-\\d+$",
+      "^\\d+-\\d+ FM 7-22 1 October 2020$",
+      "^Chapter \\d+$"
+    ]
+  },
+  {
+    "source_id": "hhs-pag-2018",
+    "title": "Physical Activity Guidelines for Americans, 2nd edition",
+    "publisher": "HHS",
+    "year": 2018,
+    "version": "2nd edition, 2018",
+    "file": "hhs-pag-2018.pdf",
+    "url": "https://odphp.health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_2nd_edition.pdf",
+    "license_or_permission": "Work of the U.S. Department of Health and Human Services; U.S. federal government works are not subject to copyright in the U.S. (17 U.S.C. 105). The PDF itself contains no license statement; permission basis is federal authorship.",
+    "accessed_at": "2026-11-13",
+    "sections": [
+      [13, 26, "Chapter 1. Introducing the Physical Activity Guidelines for Americans"],
+      [27, 45, "Chapter 2. Physical Activity and Health"],
+      [46, 54, "Chapter 3. Active Children and Adolescents"],
+      [55, 65, "Chapter 4. Active Adults"],
+      [66, 77, "Chapter 5. Active Older Adults"],
+      [78, 86, "Chapter 6. Additional Considerations for Some Adults"],
+      [87, 93, "Chapter 7. Active and Safe"],
+      [94, 103, "Chapter 8. Taking Action: Increasing Physical Activity Levels of Americans"]
+    ],
+    "exclude_pages": {},
+    "furniture": [
+      "^\\d+ Physical Activity Guidelines for Americans$",
+      "^Chapter \\d\\. .*$"
+    ]
+  },
+  {
+    "source_id": "who-pasb-2020",
+    "title": "WHO guidelines on physical activity and sedentary behaviour",
+    "publisher": "WHO",
+    "year": 2020,
+    "version": "ISBN 978-92-4-001512-8 (electronic version), 2020",
+    "file": "who-pasb-2020.pdf",
+    "url": "https://iris.who.int/handle/10665/336656",
+    "license_or_permission": "CC BY-NC-SA 3.0 IGO (stated on p4). Non-commercial educational use with attribution; derived chunks remain under the same license.",
+    "accessed_at": "2026-11-13",
+    "sections": [
+      [10, 23, "Executive summary"],
+      [24, 27, "Background"],
+      [28, 33, "Methods"],
+      [34, 34, "Recommendations"],
+      [35, 41, "Recommendations: Children and adolescents (aged 5-17 years)"],
+      [42, 52, "Recommendations: Adults (aged 18-64 years)"],
+      [53, 56, "Recommendations: Older adults (aged 65 years and older)"],
+      [57, 61, "Recommendations: Pregnant and postpartum women"],
+      [62, 69, "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)"],
+      [70, 75, "Recommendations: Children, adolescents and adults living with disability"],
+      [76, 78, "Evidence to recommendations"],
+      [79, 79, "Research needs"],
+      [80, 83, "Adoption, dissemination, implementation and evaluation"]
+    ],
+    "exclude_pages": {
+      "13": "near-duplicate of p12 (difflib ratio 0.93; fold-out 'at a glance' spread)",
+      "15": "near-duplicate of p14 (difflib ratio 0.99)",
+      "17": "near-duplicate of p16 (difflib ratio 0.99)",
+      "19": "near-duplicate of p18 (difflib ratio 0.99)",
+      "21": "near-duplicate of p20 (difflib ratio 0.99)",
+      "23": "near-duplicate of p22 (difflib ratio 0.99)"
+    },
+    "furniture": [
+      "^WHO guidelines on physical activity and sedentary behaviour$",
+      "^(?:[ivx]+ )?\\d+(?: \\d+)?$",
+      "(?:[ivx]+ |\\d+ )\\d+(?:Executive summary|Background|Methods|Recommendations|Evidence to recommendations|Research needs|Adoption, dissemination, implementation and evaluation)$"
+    ]
+  }
+]

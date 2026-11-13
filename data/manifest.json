@@ -1,0 +1,2398 @@
+{
+  "counting_rule": "A content page = a physical PDF page (1-based) inside a listed content section, not a listed duplicate, with >= 300 characters after normalization and header/footer removal. Cover, contents, acknowledgements, glossary, references, annexes and index are outside the sections and not counted.",
+  "sources": [
+    {
+      "source_id": "fm7-22-2020",
+      "title": "FM 7-22 Holistic Health and Fitness",
+      "publisher": "US Army",
+      "year": 2020,
+      "version": "1 October 2020 (supersedes chapters 1-6 and appendix D of FM 7-22, 26 October 2012)",
+      "license_or_permission": "Cover (p1): 'DISTRIBUTION RESTRICTION: Approved for public release; distribution is unlimited.' Acknowledgements (p13) note third-party material reproduced with permission (Pose Method running drills in ch.7; parts of ch.8 from the SOF Nutrition Guide); used here only for non-commercial coursework retrieval.",
+      "accessed_at": "2026-11-13",
+      "source_path_or_url": {
+        "local": "starter/data/pdf/fm7-22-2020.pdf",
+        "url": "https://arotc.illinoisstate.edu/downloads/resources/FM_7-22_October%202020.pdf"
+      },
+      "sha256": "da8e66bd1bfcc379f85ae0daa24577a5566738ea2d312fc7a14aaa15c77278f0",
+      "physical_pages": 244,
+      "content_pages": 192,
+      "content_chars": 568048,
+      "pages": [
+        {
+          "page": 19,
+          "section": "Chapter 1. Principles and Elements",
+          "chars": 2684
+        },
+        {
+          "page": 20,
+          "section": "Chapter 1. Principles and Elements",
+          "chars": 4255
+        },
+        {
+          "page": 21,
+          "section": "Chapter 1. Principles and Elements",
+          "chars": 2252
+        },
+        {
+          "page": 22,
+          "section": "Chapter 1. Principles and Elements",
+          "chars": 3460
+        },
+        {
+          "page": 23,
+          "section": "Chapter 1. Principles and Elements",
+          "chars": 4762
+        },
+        {
+          "page": 24,
+          "section": "Chapter 1. Principles and Elements",
+          "chars": 4278
+        },
+        {
+          "page": 25,
+          "section": "Chapter 1. Principles and Elements",
+          "chars": 615
+        },
+        {
+          "page": 26,
+          "section": "Chapter 1. Principles and Elements",
+          "chars": 3870
+        },
+        {
+          "page": 27,
+          "section": "Chapter 1. Principles and Elements",
+          "chars": 1334
+        },
+        {
+          "page": 29,
+          "section": "Chapter 1. Principles and Elements",
+          "chars": 4268
+        },
+        {
+          "page": 30,
+          "section": "Chapter 1. Principles and Elements",
+          "chars": 1674
+        },
+        {
+          "page": 31,
+          "section": "Chapter 2. Phases",
+          "chars": 2983
+        },
+        {
+          "page": 32,
+          "section": "Chapter 2. Phases",
+          "chars": 3507
+        },
+        {
+          "page": 33,
+          "section": "Chapter 2. Phases",
+          "chars": 3788
+        },
+        {
+          "page": 34,
+          "section": "Chapter 2. Phases",
+          "chars": 4718
+        },
+        {
+          "page": 35,
+          "section": "Chapter 2. Phases",
+          "chars": 2111
+        },
+        {
+          "page": 37,
+          "section": "Chapter 3. Domains",
+          "chars": 2440
+        },
+        {
+          "page": 38,
+          "section": "Chapter 3. Domains",
+          "chars": 2023
+        },
+        {
+          "page": 39,
+          "section": "Chapter 3. Domains",
+          "chars": 3386
+        },
+        {
+          "page": 40,
+          "section": "Chapter 3. Domains",
+          "chars": 3499
+        },
+        {
+          "page": 41,
+          "section": "Chapter 3. Domains",
+          "chars": 2873
+        },
+        {
+          "page": 42,
+          "section": "Chapter 3. Domains",
+          "chars": 2745
+        },
+        {
+          "page": 43,
+          "section": "Chapter 4. Physiology",
+          "chars": 2835
+        },
+        {
+          "page": 44,
+          "section": "Chapter 4. Physiology",
+          "chars": 4434
+        },
+        {
+          "page": 45,
+          "section": "Chapter 4. Physiology",
+          "chars": 4506
+        },
+        {
+          "page": 46,
+          "section": "Chapter 4. Physiology",
+          "chars": 2848
+        },
+        {
+          "page": 47,
+          "section": "Chapter 4. Physiology",
+          "chars": 2262
+        },
+        {
+          "page": 48,
+          "section": "Chapter 4. Physiology",
+          "chars": 5238
+        },
+        {
+          "page": 49,
+          "section": "Chapter 4. Physiology",
+          "chars": 4613
+        },
+        {
+          "page": 50,
+          "section": "Chapter 4. Physiology",
+          "chars": 4345
+        },
+        {
+          "page": 51,
+          "section": "Chapter 4. Physiology",
+          "chars": 982
+        },
+        {
+          "page": 53,
+          "section": "Chapter 5. Periodization",
+          "chars": 3987
+        },
+        {
+          "page": 54,
+          "section": "Chapter 5. Periodization",
+          "chars": 4066
+        },
+        {
+          "page": 55,
+          "section": "Chapter 5. Periodization",
+          "chars": 2635
+        },
+        {
+          "page": 56,
+          "section": "Chapter 5. Periodization",
+          "chars": 3132
+        },
+        {
+          "page": 57,
+          "section": "Chapter 5. Periodization",
+          "chars": 3821
+        },
+        {
+          "page": 58,
+          "section": "Chapter 5. Periodization",
+          "chars": 501
+        },
+        {
+          "page": 59,
+          "section": "Chapter 6. Program Design",
+          "chars": 3371
+        },
+        {
+          "page": 60,
+          "section": "Chapter 6. Program Design",
+          "chars": 3296
+        },
+        {
+          "page": 61,
+          "section": "Chapter 6. Program Design",
+          "chars": 4056
+        },
+        {
+          "page": 62,
+          "section": "Chapter 6. Program Design",
+          "chars": 4590
+        },
+        {
+          "page": 63,
+          "section": "Chapter 6. Program Design",
+          "chars": 2645
+        },
+        {
+          "page": 64,
+          "section": "Chapter 6. Program Design",
+          "chars": 3498
+        },
+        {
+          "page": 65,
+          "section": "Chapter 6. Program Design",
+          "chars": 3695
+        },
+        {
+          "page": 66,
+          "section": "Chapter 6. Program Design",
+          "chars": 2841
+        },
+        {
+          "page": 67,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 2622
+        },
+        {
+          "page": 68,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 3797
+        },
+        {
+          "page": 69,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 3434
+        },
+        {
+          "page": 70,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 2917
+        },
+        {
+          "page": 71,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 2183
+        },
+        {
+          "page": 72,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 3493
+        },
+        {
+          "page": 73,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 2574
+        },
+        {
+          "page": 74,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 2334
+        },
+        {
+          "page": 75,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 3714
+        },
+        {
+          "page": 76,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 3385
+        },
+        {
+          "page": 77,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 3515
+        },
+        {
+          "page": 78,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 4365
+        },
+        {
+          "page": 79,
+          "section": "Chapter 7. Physical Readiness",
+          "chars": 3452
+        },
+        {
+          "page": 81,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 3392
+        },
+        {
+          "page": 82,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 3415
+        },
+        {
+          "page": 83,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 4330
+        },
+        {
+          "page": 84,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 4649
+        },
+        {
+          "page": 85,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 4309
+        },
+        {
+          "page": 86,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 4160
+        },
+        {
+          "page": 87,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 3255
+        },
+        {
+          "page": 88,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 2986
+        },
+        {
+          "page": 89,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 3885
+        },
+        {
+          "page": 90,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 3669
+        },
+        {
+          "page": 91,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 2638
+        },
+        {
+          "page": 92,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 4427
+        },
+        {
+          "page": 93,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 4093
+        },
+        {
+          "page": 94,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 3877
+        },
+        {
+          "page": 95,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 3407
+        },
+        {
+          "page": 96,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 2984
+        },
+        {
+          "page": 97,
+          "section": "Chapter 8. Nutritional Readiness",
+          "chars": 3364
+        },
+        {
+          "page": 99,
+          "section": "Chapter 9. Mental Readiness",
+          "chars": 3744
+        },
+        {
+          "page": 100,
+          "section": "Chapter 9. Mental Readiness",
+          "chars": 2533
+        },
+        {
+          "page": 101,
+          "section": "Chapter 9. Mental Readiness",
+          "chars": 4659
+        },
+        {
+          "page": 102,
+          "section": "Chapter 9. Mental Readiness",
+          "chars": 4470
+        },
+        {
+          "page": 103,
+          "section": "Chapter 9. Mental Readiness",
+          "chars": 2010
+        },
+        {
+          "page": 104,
+          "section": "Chapter 9. Mental Readiness",
+          "chars": 3379
+        },
+        {
+          "page": 105,
+          "section": "Chapter 9. Mental Readiness",
+          "chars": 4058
+        },
+        {
+          "page": 106,
+          "section": "Chapter 9. Mental Readiness",
+          "chars": 3393
+        },
+        {
+          "page": 107,
+          "section": "Chapter 9. Mental Readiness",
+          "chars": 3175
+        },
+        {
+          "page": 108,
+          "section": "Chapter 9. Mental Readiness",
+          "chars": 3825
+        },
+        {
+          "page": 109,
+          "section": "Chapter 9. Mental Readiness",
+          "chars": 865
+        },
+        {
+          "page": 111,
+          "section": "Chapter 10. Spiritual Readiness",
+          "chars": 3728
+        },
+        {
+          "page": 112,
+          "section": "Chapter 10. Spiritual Readiness",
+          "chars": 4015
+        },
+        {
+          "page": 113,
+          "section": "Chapter 10. Spiritual Readiness",
+          "chars": 4296
+        },
+        {
+          "page": 114,
+          "section": "Chapter 10. Spiritual Readiness",
+          "chars": 4278
+        },
+        {
+          "page": 115,
+          "section": "Chapter 10. Spiritual Readiness",
+          "chars": 4257
+        },
+        {
+          "page": 116,
+          "section": "Chapter 10. Spiritual Readiness",
+          "chars": 3829
+        },
+        {
+          "page": 117,
+          "section": "Chapter 10. Spiritual Readiness",
+          "chars": 4182
+        },
+        {
+          "page": 118,
+          "section": "Chapter 10. Spiritual Readiness",
+          "chars": 3456
+        },
+        {
+          "page": 119,
+          "section": "Chapter 10. Spiritual Readiness",
+          "chars": 4197
+        },
+        {
+          "page": 120,
+          "section": "Chapter 10. Spiritual Readiness",
+          "chars": 1322
+        },
+        {
+          "page": 121,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 3774
+        },
+        {
+          "page": 122,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 4862
+        },
+        {
+          "page": 123,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 4297
+        },
+        {
+          "page": 124,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 3751
+        },
+        {
+          "page": 125,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 3433
+        },
+        {
+          "page": 126,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 3536
+        },
+        {
+          "page": 127,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 3604
+        },
+        {
+          "page": 128,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 3866
+        },
+        {
+          "page": 129,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 3868
+        },
+        {
+          "page": 130,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 3531
+        },
+        {
+          "page": 131,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 3371
+        },
+        {
+          "page": 132,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 3591
+        },
+        {
+          "page": 133,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 3387
+        },
+        {
+          "page": 134,
+          "section": "Chapter 11. Sleep Readiness",
+          "chars": 1333
+        },
+        {
+          "page": 135,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 3637
+        },
+        {
+          "page": 136,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 4288
+        },
+        {
+          "page": 137,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 4687
+        },
+        {
+          "page": 138,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 4633
+        },
+        {
+          "page": 139,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 3794
+        },
+        {
+          "page": 140,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 3077
+        },
+        {
+          "page": 141,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 2305
+        },
+        {
+          "page": 142,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 2476
+        },
+        {
+          "page": 143,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 3089
+        },
+        {
+          "page": 144,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 3909
+        },
+        {
+          "page": 145,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 3104
+        },
+        {
+          "page": 146,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 3161
+        },
+        {
+          "page": 147,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 2071
+        },
+        {
+          "page": 148,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 3580
+        },
+        {
+          "page": 149,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 3292
+        },
+        {
+          "page": 150,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 3455
+        },
+        {
+          "page": 151,
+          "section": "Chapter 12. Special Conditioning",
+          "chars": 2039
+        },
+        {
+          "page": 153,
+          "section": "Chapter 13. Holistic Health and Fitness Coaching",
+          "chars": 2108
+        },
+        {
+          "page": 154,
+          "section": "Chapter 13. Holistic Health and Fitness Coaching",
+          "chars": 1082
+        },
+        {
+          "page": 155,
+          "section": "Chapter 13. Holistic Health and Fitness Coaching",
+          "chars": 2553
+        },
+        {
+          "page": 156,
+          "section": "Chapter 13. Holistic Health and Fitness Coaching",
+          "chars": 3112
+        },
+        {
+          "page": 157,
+          "section": "Chapter 13. Holistic Health and Fitness Coaching",
+          "chars": 3952
+        },
+        {
+          "page": 158,
+          "section": "Chapter 13. Holistic Health and Fitness Coaching",
+          "chars": 3290
+        },
+        {
+          "page": 159,
+          "section": "Chapter 13. Holistic Health and Fitness Coaching",
+          "chars": 3269
+        },
+        {
+          "page": 161,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 3203
+        },
+        {
+          "page": 162,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 3910
+        },
+        {
+          "page": 163,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 3328
+        },
+        {
+          "page": 164,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2233
+        },
+        {
+          "page": 165,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1645
+        },
+        {
+          "page": 166,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 3747
+        },
+        {
+          "page": 167,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 3326
+        },
+        {
+          "page": 168,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 3772
+        },
+        {
+          "page": 169,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2927
+        },
+        {
+          "page": 170,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2178
+        },
+        {
+          "page": 171,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1475
+        },
+        {
+          "page": 172,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1557
+        },
+        {
+          "page": 173,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1308
+        },
+        {
+          "page": 174,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1399
+        },
+        {
+          "page": 175,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1490
+        },
+        {
+          "page": 176,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2015
+        },
+        {
+          "page": 177,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1469
+        },
+        {
+          "page": 178,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2465
+        },
+        {
+          "page": 179,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2399
+        },
+        {
+          "page": 180,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 3793
+        },
+        {
+          "page": 181,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1320
+        },
+        {
+          "page": 182,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1509
+        },
+        {
+          "page": 183,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1388
+        },
+        {
+          "page": 184,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1545
+        },
+        {
+          "page": 185,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1570
+        },
+        {
+          "page": 186,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1532
+        },
+        {
+          "page": 187,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2005
+        },
+        {
+          "page": 188,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1452
+        },
+        {
+          "page": 189,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1545
+        },
+        {
+          "page": 190,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1602
+        },
+        {
+          "page": 191,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1579
+        },
+        {
+          "page": 192,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1595
+        },
+        {
+          "page": 193,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1518
+        },
+        {
+          "page": 194,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1597
+        },
+        {
+          "page": 195,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1702
+        },
+        {
+          "page": 196,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1979
+        },
+        {
+          "page": 197,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2551
+        },
+        {
+          "page": 198,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1521
+        },
+        {
+          "page": 199,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2145
+        },
+        {
+          "page": 200,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1549
+        },
+        {
+          "page": 201,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2169
+        },
+        {
+          "page": 202,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1449
+        },
+        {
+          "page": 203,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2756
+        },
+        {
+          "page": 204,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1480
+        },
+        {
+          "page": 205,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2139
+        },
+        {
+          "page": 206,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1442
+        },
+        {
+          "page": 207,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2690
+        },
+        {
+          "page": 208,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1777
+        },
+        {
+          "page": 209,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2429
+        },
+        {
+          "page": 210,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1538
+        },
+        {
+          "page": 211,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1506
+        },
+        {
+          "page": 212,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2951
+        },
+        {
+          "page": 213,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1619
+        },
+        {
+          "page": 214,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2131
+        },
+        {
+          "page": 215,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1653
+        },
+        {
+          "page": 216,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 2775
+        },
+        {
+          "page": 217,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1393
+        },
+        {
+          "page": 218,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules",
+          "chars": 1123
+        }
+      ],
+      "excluded_pages": [
+        {
+          "page": 1,
+          "chars": 259,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 2,
+          "chars": 183,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 3,
+          "chars": 4198,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 4,
+          "chars": 5677,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 5,
+          "chars": 5965,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 6,
+          "chars": 6072,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 7,
+          "chars": 4947,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 8,
+          "chars": 4812,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 9,
+          "chars": 3725,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 10,
+          "chars": 35,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 11,
+          "chars": 2855,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 12,
+          "chars": 35,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 13,
+          "chars": 719,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 14,
+          "chars": 35,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 15,
+          "chars": 2351,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 16,
+          "chars": 3986,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 17,
+          "chars": 4066,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 18,
+          "chars": 628,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 28,
+          "chars": 109,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 36,
+          "chars": 35,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 52,
+          "chars": 35,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 80,
+          "chars": 35,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 98,
+          "chars": 35,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 110,
+          "chars": 35,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 152,
+          "chars": 35,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 160,
+          "chars": 35,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 219,
+          "chars": 2590,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 220,
+          "chars": 35,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 221,
+          "chars": 1160,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 222,
+          "chars": 1433,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 223,
+          "chars": 2310,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 224,
+          "chars": 2119,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 225,
+          "chars": 2384,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 226,
+          "chars": 2153,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 227,
+          "chars": 2390,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 228,
+          "chars": 2158,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 229,
+          "chars": 1670,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 230,
+          "chars": 35,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 231,
+          "chars": 2101,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 232,
+          "chars": 3078,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 233,
+          "chars": 2801,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 234,
+          "chars": 3659,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 235,
+          "chars": 713,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 236,
+          "chars": 35,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 237,
+          "chars": 2848,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 238,
+          "chars": 3566,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 239,
+          "chars": 3453,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 240,
+          "chars": 3759,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 241,
+          "chars": 2413,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 242,
+          "chars": 35,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 243,
+          "chars": 415,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 244,
+          "chars": 15,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        }
+      ]
+    },
+    {
+      "source_id": "hhs-pag-2018",
+      "title": "Physical Activity Guidelines for Americans, 2nd edition",
+      "publisher": "HHS",
+      "year": 2018,
+      "version": "2nd edition, 2018",
+      "license_or_permission": "Work of the U.S. Department of Health and Human Services; U.S. federal government works are not subject to copyright in the U.S. (17 U.S.C. 105). The PDF itself contains no license statement; permission basis is federal authorship.",
+      "accessed_at": "2026-11-13",
+      "source_path_or_url": {
+        "local": "starter/data/pdf/hhs-pag-2018.pdf",
+        "url": "https://odphp.health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_2nd_edition.pdf"
+      },
+      "sha256": "0147d4dfc5ae76613a8b8d9d1c95244477527989f1d841845866ae5b5340cda5",
+      "physical_pages": 118,
+      "content_pages": 83,
+      "content_chars": 206663,
+      "pages": [
+        {
+          "page": 14,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 2481
+        },
+        {
+          "page": 15,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 1771
+        },
+        {
+          "page": 16,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 1081
+        },
+        {
+          "page": 17,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 770
+        },
+        {
+          "page": 18,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 3124
+        },
+        {
+          "page": 19,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 2932
+        },
+        {
+          "page": 20,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 2538
+        },
+        {
+          "page": 21,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 2948
+        },
+        {
+          "page": 22,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 1682
+        },
+        {
+          "page": 23,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 2305
+        },
+        {
+          "page": 24,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 2891
+        },
+        {
+          "page": 25,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 2492
+        },
+        {
+          "page": 26,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans",
+          "chars": 1806
+        },
+        {
+          "page": 28,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 2362
+        },
+        {
+          "page": 29,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 2962
+        },
+        {
+          "page": 30,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 2996
+        },
+        {
+          "page": 31,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 1402
+        },
+        {
+          "page": 32,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 1619
+        },
+        {
+          "page": 33,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 2433
+        },
+        {
+          "page": 34,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 2838
+        },
+        {
+          "page": 35,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 2264
+        },
+        {
+          "page": 36,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 2747
+        },
+        {
+          "page": 37,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 3249
+        },
+        {
+          "page": 38,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 4032
+        },
+        {
+          "page": 39,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 1357
+        },
+        {
+          "page": 40,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 1486
+        },
+        {
+          "page": 41,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 2654
+        },
+        {
+          "page": 42,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 1462
+        },
+        {
+          "page": 43,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 1099
+        },
+        {
+          "page": 44,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 2145
+        },
+        {
+          "page": 45,
+          "section": "Chapter 2. Physical Activity and Health",
+          "chars": 1827
+        },
+        {
+          "page": 47,
+          "section": "Chapter 3. Active Children and Adolescents",
+          "chars": 2758
+        },
+        {
+          "page": 48,
+          "section": "Chapter 3. Active Children and Adolescents",
+          "chars": 2510
+        },
+        {
+          "page": 49,
+          "section": "Chapter 3. Active Children and Adolescents",
+          "chars": 3081
+        },
+        {
+          "page": 50,
+          "section": "Chapter 3. Active Children and Adolescents",
+          "chars": 3115
+        },
+        {
+          "page": 51,
+          "section": "Chapter 3. Active Children and Adolescents",
+          "chars": 2100
+        },
+        {
+          "page": 52,
+          "section": "Chapter 3. Active Children and Adolescents",
+          "chars": 2372
+        },
+        {
+          "page": 53,
+          "section": "Chapter 3. Active Children and Adolescents",
+          "chars": 2458
+        },
+        {
+          "page": 54,
+          "section": "Chapter 3. Active Children and Adolescents",
+          "chars": 2173
+        },
+        {
+          "page": 56,
+          "section": "Chapter 4. Active Adults",
+          "chars": 2744
+        },
+        {
+          "page": 57,
+          "section": "Chapter 4. Active Adults",
+          "chars": 2761
+        },
+        {
+          "page": 58,
+          "section": "Chapter 4. Active Adults",
+          "chars": 2870
+        },
+        {
+          "page": 59,
+          "section": "Chapter 4. Active Adults",
+          "chars": 1056
+        },
+        {
+          "page": 60,
+          "section": "Chapter 4. Active Adults",
+          "chars": 2689
+        },
+        {
+          "page": 61,
+          "section": "Chapter 4. Active Adults",
+          "chars": 2477
+        },
+        {
+          "page": 62,
+          "section": "Chapter 4. Active Adults",
+          "chars": 2994
+        },
+        {
+          "page": 63,
+          "section": "Chapter 4. Active Adults",
+          "chars": 2814
+        },
+        {
+          "page": 64,
+          "section": "Chapter 4. Active Adults",
+          "chars": 2756
+        },
+        {
+          "page": 65,
+          "section": "Chapter 4. Active Adults",
+          "chars": 2333
+        },
+        {
+          "page": 67,
+          "section": "Chapter 5. Active Older Adults",
+          "chars": 2571
+        },
+        {
+          "page": 68,
+          "section": "Chapter 5. Active Older Adults",
+          "chars": 1789
+        },
+        {
+          "page": 69,
+          "section": "Chapter 5. Active Older Adults",
+          "chars": 2309
+        },
+        {
+          "page": 70,
+          "section": "Chapter 5. Active Older Adults",
+          "chars": 1787
+        },
+        {
+          "page": 71,
+          "section": "Chapter 5. Active Older Adults",
+          "chars": 2871
+        },
+        {
+          "page": 72,
+          "section": "Chapter 5. Active Older Adults",
+          "chars": 2455
+        },
+        {
+          "page": 73,
+          "section": "Chapter 5. Active Older Adults",
+          "chars": 3698
+        },
+        {
+          "page": 74,
+          "section": "Chapter 5. Active Older Adults",
+          "chars": 3243
+        },
+        {
+          "page": 75,
+          "section": "Chapter 5. Active Older Adults",
+          "chars": 2181
+        },
+        {
+          "page": 76,
+          "section": "Chapter 5. Active Older Adults",
+          "chars": 2793
+        },
+        {
+          "page": 77,
+          "section": "Chapter 5. Active Older Adults",
+          "chars": 2914
+        },
+        {
+          "page": 79,
+          "section": "Chapter 6. Additional Considerations for Some Adults",
+          "chars": 3037
+        },
+        {
+          "page": 80,
+          "section": "Chapter 6. Additional Considerations for Some Adults",
+          "chars": 2875
+        },
+        {
+          "page": 81,
+          "section": "Chapter 6. Additional Considerations for Some Adults",
+          "chars": 3300
+        },
+        {
+          "page": 82,
+          "section": "Chapter 6. Additional Considerations for Some Adults",
+          "chars": 2939
+        },
+        {
+          "page": 83,
+          "section": "Chapter 6. Additional Considerations for Some Adults",
+          "chars": 3726
+        },
+        {
+          "page": 84,
+          "section": "Chapter 6. Additional Considerations for Some Adults",
+          "chars": 3022
+        },
+        {
+          "page": 85,
+          "section": "Chapter 6. Additional Considerations for Some Adults",
+          "chars": 2622
+        },
+        {
+          "page": 86,
+          "section": "Chapter 6. Additional Considerations for Some Adults",
+          "chars": 2201
+        },
+        {
+          "page": 88,
+          "section": "Chapter 7. Active and Safe",
+          "chars": 2057
+        },
+        {
+          "page": 89,
+          "section": "Chapter 7. Active and Safe",
+          "chars": 2321
+        },
+        {
+          "page": 90,
+          "section": "Chapter 7. Active and Safe",
+          "chars": 2901
+        },
+        {
+          "page": 91,
+          "section": "Chapter 7. Active and Safe",
+          "chars": 1676
+        },
+        {
+          "page": 92,
+          "section": "Chapter 7. Active and Safe",
+          "chars": 2741
+        },
+        {
+          "page": 93,
+          "section": "Chapter 7. Active and Safe",
+          "chars": 2799
+        },
+        {
+          "page": 95,
+          "section": "Chapter 8. Taking Action: Increasing Physical Activity Levels of Americans",
+          "chars": 3174
+        },
+        {
+          "page": 96,
+          "section": "Chapter 8. Taking Action: Increasing Physical Activity Levels of Americans",
+          "chars": 3092
+        },
+        {
+          "page": 97,
+          "section": "Chapter 8. Taking Action: Increasing Physical Activity Levels of Americans",
+          "chars": 2456
+        },
+        {
+          "page": 98,
+          "section": "Chapter 8. Taking Action: Increasing Physical Activity Levels of Americans",
+          "chars": 2691
+        },
+        {
+          "page": 99,
+          "section": "Chapter 8. Taking Action: Increasing Physical Activity Levels of Americans",
+          "chars": 3178
+        },
+        {
+          "page": 100,
+          "section": "Chapter 8. Taking Action: Increasing Physical Activity Levels of Americans",
+          "chars": 3554
+        },
+        {
+          "page": 101,
+          "section": "Chapter 8. Taking Action: Increasing Physical Activity Levels of Americans",
+          "chars": 2796
+        },
+        {
+          "page": 102,
+          "section": "Chapter 8. Taking Action: Increasing Physical Activity Levels of Americans",
+          "chars": 2420
+        },
+        {
+          "page": 103,
+          "section": "Chapter 8. Taking Action: Increasing Physical Activity Levels of Americans",
+          "chars": 658
+        }
+      ],
+      "excluded_pages": [
+        {
+          "page": 1,
+          "chars": 54,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 2,
+          "chars": 3391,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 3,
+          "chars": 2443,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 4,
+          "chars": 1277,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 5,
+          "chars": 1770,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 6,
+          "chars": 3030,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 7,
+          "chars": 1531,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 8,
+          "chars": 2522,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 9,
+          "chars": 2609,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 10,
+          "chars": 1406,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 11,
+          "chars": 1522,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 12,
+          "chars": 1933,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 13,
+          "chars": 33,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 27,
+          "chars": 0,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 46,
+          "chars": 0,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 55,
+          "chars": 0,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 66,
+          "chars": 0,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 78,
+          "chars": 15,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 87,
+          "chars": 0,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 94,
+          "chars": 37,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 104,
+          "chars": 2801,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 105,
+          "chars": 3349,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 106,
+          "chars": 3113,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 107,
+          "chars": 1974,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 108,
+          "chars": 2527,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 109,
+          "chars": 3471,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 110,
+          "chars": 3270,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 111,
+          "chars": 2770,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 112,
+          "chars": 2134,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 113,
+          "chars": 2532,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 114,
+          "chars": 2552,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 115,
+          "chars": 2541,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 116,
+          "chars": 2383,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 117,
+          "chars": 2540,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 118,
+          "chars": 107,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        }
+      ]
+    },
+    {
+      "source_id": "who-pasb-2020",
+      "title": "WHO guidelines on physical activity and sedentary behaviour",
+      "publisher": "WHO",
+      "year": 2020,
+      "version": "ISBN 978-92-4-001512-8 (electronic version), 2020",
+      "license_or_permission": "CC BY-NC-SA 3.0 IGO (stated on p4). Non-commercial educational use with attribution; derived chunks remain under the same license.",
+      "accessed_at": "2026-11-13",
+      "source_path_or_url": {
+        "local": "starter/data/pdf/who-pasb-2020.pdf",
+        "url": "https://iris.who.int/handle/10665/336656"
+      },
+      "sha256": "50b66c44e7083cc3752849f301ae1d60d9360d511e34c0c948b39bdf6e13dc88",
+      "physical_pages": 104,
+      "content_pages": 67,
+      "content_chars": 246641,
+      "pages": [
+        {
+          "page": 10,
+          "section": "Executive summary",
+          "chars": 3812
+        },
+        {
+          "page": 11,
+          "section": "Executive summary",
+          "chars": 6151
+        },
+        {
+          "page": 12,
+          "section": "Executive summary",
+          "chars": 3942
+        },
+        {
+          "page": 14,
+          "section": "Executive summary",
+          "chars": 4258
+        },
+        {
+          "page": 16,
+          "section": "Executive summary",
+          "chars": 3799
+        },
+        {
+          "page": 18,
+          "section": "Executive summary",
+          "chars": 5473
+        },
+        {
+          "page": 20,
+          "section": "Executive summary",
+          "chars": 3063
+        },
+        {
+          "page": 22,
+          "section": "Executive summary",
+          "chars": 5204
+        },
+        {
+          "page": 25,
+          "section": "Background",
+          "chars": 3549
+        },
+        {
+          "page": 26,
+          "section": "Background",
+          "chars": 3606
+        },
+        {
+          "page": 27,
+          "section": "Background",
+          "chars": 2783
+        },
+        {
+          "page": 28,
+          "section": "Methods",
+          "chars": 2413
+        },
+        {
+          "page": 29,
+          "section": "Methods",
+          "chars": 2900
+        },
+        {
+          "page": 30,
+          "section": "Methods",
+          "chars": 5057
+        },
+        {
+          "page": 31,
+          "section": "Methods",
+          "chars": 4934
+        },
+        {
+          "page": 32,
+          "section": "Methods",
+          "chars": 4939
+        },
+        {
+          "page": 33,
+          "section": "Methods",
+          "chars": 4195
+        },
+        {
+          "page": 34,
+          "section": "Recommendations",
+          "chars": 1380
+        },
+        {
+          "page": 35,
+          "section": "Recommendations: Children and adolescents (aged 5-17 years)",
+          "chars": 2211
+        },
+        {
+          "page": 36,
+          "section": "Recommendations: Children and adolescents (aged 5-17 years)",
+          "chars": 5097
+        },
+        {
+          "page": 37,
+          "section": "Recommendations: Children and adolescents (aged 5-17 years)",
+          "chars": 4794
+        },
+        {
+          "page": 38,
+          "section": "Recommendations: Children and adolescents (aged 5-17 years)",
+          "chars": 1483
+        },
+        {
+          "page": 39,
+          "section": "Recommendations: Children and adolescents (aged 5-17 years)",
+          "chars": 1726
+        },
+        {
+          "page": 40,
+          "section": "Recommendations: Children and adolescents (aged 5-17 years)",
+          "chars": 4925
+        },
+        {
+          "page": 41,
+          "section": "Recommendations: Children and adolescents (aged 5-17 years)",
+          "chars": 3981
+        },
+        {
+          "page": 42,
+          "section": "Recommendations: Adults (aged 18-64 years)",
+          "chars": 2209
+        },
+        {
+          "page": 43,
+          "section": "Recommendations: Adults (aged 18-64 years)",
+          "chars": 4685
+        },
+        {
+          "page": 44,
+          "section": "Recommendations: Adults (aged 18-64 years)",
+          "chars": 5263
+        },
+        {
+          "page": 45,
+          "section": "Recommendations: Adults (aged 18-64 years)",
+          "chars": 3195
+        },
+        {
+          "page": 46,
+          "section": "Recommendations: Adults (aged 18-64 years)",
+          "chars": 5123
+        },
+        {
+          "page": 47,
+          "section": "Recommendations: Adults (aged 18-64 years)",
+          "chars": 5104
+        },
+        {
+          "page": 48,
+          "section": "Recommendations: Adults (aged 18-64 years)",
+          "chars": 3131
+        },
+        {
+          "page": 49,
+          "section": "Recommendations: Adults (aged 18-64 years)",
+          "chars": 4631
+        },
+        {
+          "page": 50,
+          "section": "Recommendations: Adults (aged 18-64 years)",
+          "chars": 4049
+        },
+        {
+          "page": 51,
+          "section": "Recommendations: Adults (aged 18-64 years)",
+          "chars": 4012
+        },
+        {
+          "page": 52,
+          "section": "Recommendations: Adults (aged 18-64 years)",
+          "chars": 2720
+        },
+        {
+          "page": 53,
+          "section": "Recommendations: Older adults (aged 65 years and older)",
+          "chars": 2795
+        },
+        {
+          "page": 54,
+          "section": "Recommendations: Older adults (aged 65 years and older)",
+          "chars": 4451
+        },
+        {
+          "page": 55,
+          "section": "Recommendations: Older adults (aged 65 years and older)",
+          "chars": 2478
+        },
+        {
+          "page": 56,
+          "section": "Recommendations: Older adults (aged 65 years and older)",
+          "chars": 2068
+        },
+        {
+          "page": 57,
+          "section": "Recommendations: Pregnant and postpartum women",
+          "chars": 2653
+        },
+        {
+          "page": 58,
+          "section": "Recommendations: Pregnant and postpartum women",
+          "chars": 3988
+        },
+        {
+          "page": 59,
+          "section": "Recommendations: Pregnant and postpartum women",
+          "chars": 4071
+        },
+        {
+          "page": 60,
+          "section": "Recommendations: Pregnant and postpartum women",
+          "chars": 938
+        },
+        {
+          "page": 61,
+          "section": "Recommendations: Pregnant and postpartum women",
+          "chars": 2554
+        },
+        {
+          "page": 62,
+          "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)",
+          "chars": 3126
+        },
+        {
+          "page": 63,
+          "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)",
+          "chars": 3690
+        },
+        {
+          "page": 64,
+          "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)",
+          "chars": 5230
+        },
+        {
+          "page": 65,
+          "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)",
+          "chars": 5333
+        },
+        {
+          "page": 66,
+          "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)",
+          "chars": 4878
+        },
+        {
+          "page": 67,
+          "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)",
+          "chars": 2651
+        },
+        {
+          "page": 68,
+          "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)",
+          "chars": 2243
+        },
+        {
+          "page": 69,
+          "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)",
+          "chars": 2330
+        },
+        {
+          "page": 70,
+          "section": "Recommendations: Children, adolescents and adults living with disability",
+          "chars": 2848
+        },
+        {
+          "page": 71,
+          "section": "Recommendations: Children, adolescents and adults living with disability",
+          "chars": 3449
+        },
+        {
+          "page": 72,
+          "section": "Recommendations: Children, adolescents and adults living with disability",
+          "chars": 4589
+        },
+        {
+          "page": 73,
+          "section": "Recommendations: Children, adolescents and adults living with disability",
+          "chars": 4147
+        },
+        {
+          "page": 74,
+          "section": "Recommendations: Children, adolescents and adults living with disability",
+          "chars": 2582
+        },
+        {
+          "page": 75,
+          "section": "Recommendations: Children, adolescents and adults living with disability",
+          "chars": 2403
+        },
+        {
+          "page": 76,
+          "section": "Evidence to recommendations",
+          "chars": 4251
+        },
+        {
+          "page": 77,
+          "section": "Evidence to recommendations",
+          "chars": 4902
+        },
+        {
+          "page": 78,
+          "section": "Evidence to recommendations",
+          "chars": 4846
+        },
+        {
+          "page": 79,
+          "section": "Research needs",
+          "chars": 1692
+        },
+        {
+          "page": 80,
+          "section": "Adoption, dissemination, implementation and evaluation",
+          "chars": 3811
+        },
+        {
+          "page": 81,
+          "section": "Adoption, dissemination, implementation and evaluation",
+          "chars": 4215
+        },
+        {
+          "page": 82,
+          "section": "Adoption, dissemination, implementation and evaluation",
+          "chars": 3446
+        },
+        {
+          "page": 83,
+          "section": "Adoption, dissemination, implementation and evaluation",
+          "chars": 4186
+        }
+      ],
+      "excluded_pages": [
+        {
+          "page": 1,
+          "chars": 59,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 2,
+          "chars": 0,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 3,
+          "chars": 59,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 4,
+          "chars": 3302,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 5,
+          "chars": 1719,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 6,
+          "chars": 3699,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 7,
+          "chars": 908,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 8,
+          "chars": 4508,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 9,
+          "chars": 4334,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 13,
+          "chars": 3472,
+          "reason": "near-duplicate of p12 (difflib ratio 0.93; fold-out 'at a glance' spread)"
+        },
+        {
+          "page": 15,
+          "chars": 4255,
+          "reason": "near-duplicate of p14 (difflib ratio 0.99)"
+        },
+        {
+          "page": 17,
+          "chars": 3796,
+          "reason": "near-duplicate of p16 (difflib ratio 0.99)"
+        },
+        {
+          "page": 19,
+          "chars": 5470,
+          "reason": "near-duplicate of p18 (difflib ratio 0.99)"
+        },
+        {
+          "page": 21,
+          "chars": 3058,
+          "reason": "near-duplicate of p20 (difflib ratio 0.99)"
+        },
+        {
+          "page": 23,
+          "chars": 5199,
+          "reason": "near-duplicate of p22 (difflib ratio 0.99)"
+        },
+        {
+          "page": 24,
+          "chars": 0,
+          "reason": "<300 chars after normalization (blank, divider or figure-only)"
+        },
+        {
+          "page": 84,
+          "chars": 0,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 85,
+          "chars": 3841,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 86,
+          "chars": 4087,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 87,
+          "chars": 4027,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 88,
+          "chars": 4118,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 89,
+          "chars": 4111,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 90,
+          "chars": 4130,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 91,
+          "chars": 4203,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 92,
+          "chars": 2474,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 93,
+          "chars": 108,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 94,
+          "chars": 0,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 95,
+          "chars": 1520,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 96,
+          "chars": 3272,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 97,
+          "chars": 2528,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 98,
+          "chars": 1621,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 99,
+          "chars": 1824,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 100,
+          "chars": 1660,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 101,
+          "chars": 1803,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 102,
+          "chars": 2343,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 103,
+          "chars": 2776,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        },
+        {
+          "page": 104,
+          "chars": 45,
+          "reason": "front/back matter (cover, contents, glossary, references, annex, index)"
+        }
+      ]
+    }
+  ]
+}
