@@ -1,0 +1,501 @@
+[
+  {
+    "id": "q16",
+    "strategy": "A",
+    "question": "Which training period is the longest, and how long can it last?",
+    "expected_answer": "The base period, lasting up to twelve weeks.",
+    "filter_applied": null,
+    "same_top3_as": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p057:fixed:02",
+        "page": 57,
+        "section": "Chapter 5. Periodization",
+        "text": "d is the longest of all the periods lasting up to twelve weeks. As most training in this\nperiod is relatively low intensity, it may be predominate in Soldier populations that do not have any pending\nprimary missions, deployments, or high-intensity schooling.\nBUILD\n5-18. This is the four to eight week period when the abilities from the base period are built upon with higher\nintensity and increased volume of training. Training effort begins to mimic the primary goal or mission and\nthe period ends "
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p053:fixed:07",
+        "page": 53,
+        "section": "Chapter 5. Periodization",
+        "text": "ded into six-month segments. These\ncan still be useful, but more flexible approaches are possible with periodized programming.\n5-5. Periodized blocks of training can last from several days to several months. They can be progressed\nover several years. This long-term approach suits the different lengths of Soldier careers. The H2F training\nphases—initial and sustaining —contain training cycles that last from a few days (microcycles) to several\nmonths or more (macrocycles). The H2F System facilitat"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p054:fixed:07",
+        "page": 54,
+        "section": "Chapter 5. Periodization",
+        "text": "as a taper, keeps the intensity and specificity\nof exercise high while reducing frequency and duration of training. The physiological response is called\nsupercompensation.\nMACROCYCLE\n5-11. The longest period, usually lasting a year or more, is referred to as a macrocycle. This duration of\ntraining builds readiness towards a single peak within that time span. A twenty-year Army career would\ninclude multiple macrocycles. The goal for all Soldiers should be to complete their service in peak conditi"
+      }
+    ],
+    "score_0_2": 1,
+    "reason": "Chunk hạng 1 (trang 57) có câu \"is the longest of all the periods lasting up to twelve weeks\" nhưng bị cắt mất tên giai đoạn (BASE); tên này chỉ suy ra gián tiếp từ câu sau nhắc \"the base period\". Hạng 3 (trang 54) lại gọi macrocycle là \"the longest period\", dễ gây nhầm."
+  },
+  {
+    "id": "q16",
+    "strategy": "B",
+    "question": "Which training period is the longest, and how long can it last?",
+    "expected_answer": "The base period, lasting up to twelve weeks.",
+    "filter_applied": null,
+    "same_top3_as": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p054:para:05",
+        "page": 54,
+        "section": "Chapter 5. Periodization",
+        "text": "MACROCYCLE\n5-11. The longest period, usually lasting a year or more, is referred to as a macrocycle. This duration of\ntraining builds readiness towards a single peak within that time span. A twenty-year Army career would\ninclude multiple macrocycles. The goal for all Soldiers should be to complete their service in peak condition.\n5-12. Training periods described in this doctrine feature base period characterized by higher training volume\nand more training variety. Base periods transition to build periods and then to pre-combat and combat cycles\nthat feature much less volume and higher intensity. These later periods feature training specific to the\nessential physical and nonphysical tasks required in the combat mission (see table 5-1)."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p057:para:01",
+        "page": 57,
+        "section": "Chapter 5. Periodization",
+        "text": "BASE\n5-17. This is the period when the basic abilities of endurance, strength, speed , and movement skill are\nemphasized. This period is the longest of all the periods lasting up to twelve weeks. As most training in this\nperiod is relatively low intensity, it may be predominate in Soldier populations that do not have any pending\nprimary missions, deployments, or high-intensity schooling.\nBUILD\n5-18. This is the four to eight week period when the abilities from the base period are built upon with higher\nintensity and increased volume of training. Training effort begins to mimic the primary goal or mission and\nthe period ends with a simulation of the mission or a test . Leaders might implement a FTX or a practice\nACFT."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p053:para:02",
+        "page": 53,
+        "section": "Chapter 5. Periodization",
+        "text": "5-2. Periodized training divides physical training into logical time periods. Each period—base, build, taper,\ncombat, and recovery—has a specific training goal that builds on the preceding period. Periods can be weeks\nto months long with an individual ’s periodized plan lasting for a year or more. Progress is measured across\nthe different domains of readiness, energy systems, and components of fitness. Adjustments are made to\navoid plateaus or reversals in fitness due to injury, illness, and unplanned life events. In a periodized plan,\ngoals change over time from general fitness to a narrower focus on specific task performance."
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Hạng 2 (trang 57) có trọn đoạn BASE 5-17: nêu tên giai đoạn và \"up to twelve weeks\", truy được về trang. Hạng 3 (trang 53) liệt kê các giai đoạn base, build, taper, combat, recovery. Lưu ý: hạng 1 (trang 54) gọi macrocycle là \"the longest period\", nên người đọc phải phân biệt hai khái niệm. Ca giáp ranh giữa 1 và 2."
+  },
+  {
+    "id": "q16",
+    "strategy": "C",
+    "question": "Which training period is the longest, and how long can it last?",
+    "expected_answer": "The base period, lasting up to twelve weeks.",
+    "filter_applied": null,
+    "same_top3_as": "B",
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p054:para:05",
+        "page": 54,
+        "section": "Chapter 5. Periodization",
+        "text": "MACROCYCLE\n5-11. The longest period, usually lasting a year or more, is referred to as a macrocycle. This duration of\ntraining builds readiness towards a single peak within that time span. A twenty-year Army career would\ninclude multiple macrocycles. The goal for all Soldiers should be to complete their service in peak condition.\n5-12. Training periods described in this doctrine feature base period characterized by higher training volume\nand more training variety. Base periods transition to build periods and then to pre-combat and combat cycles\nthat feature much less volume and higher intensity. These later periods feature training specific to the\nessential physical and nonphysical tasks required in the combat mission (see table 5-1)."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p057:para:01",
+        "page": 57,
+        "section": "Chapter 5. Periodization",
+        "text": "BASE\n5-17. This is the period when the basic abilities of endurance, strength, speed , and movement skill are\nemphasized. This period is the longest of all the periods lasting up to twelve weeks. As most training in this\nperiod is relatively low intensity, it may be predominate in Soldier populations that do not have any pending\nprimary missions, deployments, or high-intensity schooling.\nBUILD\n5-18. This is the four to eight week period when the abilities from the base period are built upon with higher\nintensity and increased volume of training. Training effort begins to mimic the primary goal or mission and\nthe period ends with a simulation of the mission or a test . Leaders might implement a FTX or a practice\nACFT."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p053:para:02",
+        "page": 53,
+        "section": "Chapter 5. Periodization",
+        "text": "5-2. Periodized training divides physical training into logical time periods. Each period—base, build, taper,\ncombat, and recovery—has a specific training goal that builds on the preceding period. Periods can be weeks\nto months long with an individual ’s periodized plan lasting for a year or more. Progress is measured across\nthe different domains of readiness, energy systems, and components of fitness. Adjustments are made to\navoid plateaus or reversals in fitness due to injury, illness, and unplanned life events. In a periodized plan,\ngoals change over time from general fitness to a narrower focus on specific task performance."
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Top-3 giống hệt B. Hạng 2 (trang 57) có trọn đoạn BASE 5-17: nêu tên giai đoạn và \"up to twelve weeks\", truy được về trang. Hạng 3 (trang 53) liệt kê các giai đoạn base, build, taper, combat, recovery. Lưu ý: hạng 1 (trang 54) gọi macrocycle là \"the longest period\", nên người đọc phải phân biệt hai khái niệm. Ca giáp ranh giữa 1 và 2."
+  },
+  {
+    "id": "q17",
+    "strategy": "A",
+    "question": "What exercise position is off limits for Soldiers who are more than 20 weeks pregnant?",
+    "expected_answer": "They do not perform exercises lying on their backs.",
+    "filter_applied": null,
+    "same_top3_as": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p145:fixed:02",
+        "page": 145,
+        "section": "Chapter 12. Special Conditioning",
+        "text": "l phases of\nexercise to prevent them from hyperventilating.\n• Soldiers more than 20 weeks pregnant do not perform exercises lying on their\nbacks.\n• Soldiers more than 20 weeks pregnant must use a splinting technique to support\ntheir abdomens during all abdominal exercises.\n• Weight bearing activities (running and jogging) for pregnant Soldiers are limited\nto 45-minutes to prevent decreased blood flow to the heart and uterus.\n• Pregnant Soldiers are not to perform activities that put them at risk"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p146:fixed:04",
+        "page": 146,
+        "section": "Chapter 12. Special Conditioning",
+        "text": "essional\nassistance, and alert the Soldier’s chain of command about a potential concern.\nPREGNANCY AND POSTPARTUM PHYSICAL TRAINING\nEXERCISE SESSIONS\n12-43. It is safe for Soldiers to continue or start most types of exercise during a normal, uncomplicated\npregnancy. Soldiers who were very active before pregnancy or are experienced runners, for example, may be\ncleared by medical providers to keep doing the same workouts well into their pregnancies. Physical activity\ndoes not increase risk of misc"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p145:fixed:03",
+        "page": 145,
+        "section": "Chapter 12. Special Conditioning",
+        "text": "re not to perform activities that put them at risk of falling or\nbeing hit in the abdomen.\n• If a Soldier less than 20 weeks pregnant falls during an exercise, she should rest\nfor 10 minutes on her side and notify her health care provider for further\ninstruction. If symptoms of injury exist (such as cramping, bleeding, or swelling),\nthe Soldier should go to the emergency room. If the Soldier is more than 20\nweeks pregnant, then she needs to seek immediate care at the medical treatment\nfacility.\n"
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Hạng 1 (trang 145) có trọn câu \"Soldiers more than 20 weeks pregnant do not perform exercises lying on their backs\": đủ điều kiện trên 20 tuần và truy được nguồn."
+  },
+  {
+    "id": "q17",
+    "strategy": "B",
+    "question": "What exercise position is off limits for Soldiers who are more than 20 weeks pregnant?",
+    "expected_answer": "They do not perform exercises lying on their backs.",
+    "filter_applied": null,
+    "same_top3_as": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p145:para:01",
+        "page": 145,
+        "section": "Chapter 12. Special Conditioning",
+        "text": "• Pregnant Soldiers will not exercise to exhaustion, breathlessness, or fatigue. If\nSoldiers exhibit these signs, leaders coach them to decrease the intensity or to\nstop vaginal bleeding, abdominal pain, regular painful contractions, and amniotic\nfluid leakage.\n• Pregnant Soldiers should be led in slow, deep breathing during all phases of\nexercise to prevent them from hyperventilating.\n• Soldiers more than 20 weeks pregnant do not perform exercises lying on their\nbacks.\n• Soldiers more than 20 weeks pregnant must use a splinting technique to support\ntheir abdomens during all abdominal exercises.\n• Weight bearing activities (running and jogging) for pregnant Soldiers are limited\nto 45-minutes to prevent decreased blood flow to the heart and uterus."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p145:para:02",
+        "page": 145,
+        "section": "Chapter 12. Special Conditioning",
+        "text": "• Pregnant Soldiers are not to perform activities that put them at risk of falling or\nbeing hit in the abdomen.\n• If a Soldier less than 20 weeks pregnant falls during an exercise, she should rest\nfor 10 minutes on her side and notify her health care provider for further\ninstruction. If symptoms of injury exist (such as cramping, bleeding, or swelling),\nthe Soldier should go to the emergency room. If the Soldier is more than 20\nweeks pregnant, then she needs to seek immediate care at the medical treatment\nfacility."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p146:para:03",
+        "page": 146,
+        "section": "Chapter 12. Special Conditioning",
+        "text": "12-43. It is safe for Soldiers to continue or start most types of exercise during a normal, uncomplicated\npregnancy. Soldiers who were very active before pregnancy or are experienced runners, for example, may be\ncleared by medical providers to keep doing the same workouts well into their pregnancies. Physical activity\ndoes not increase risk of miscarriage, low birth weight, or premature delivery. The benefits of exercise during\npregnancy include the following:\n• Decreased risk of pregnancy-related medical complications.\n• Reduced back pain.\n• Healthy weight gain during pregnancy and healthy weight loss afterwards.\n• Improved maintenance of overall physical readiness and health."
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Hạng 1 (trang 145) có trọn câu \"Soldiers more than 20 weeks pregnant do not perform exercises lying on their backs\": đủ điều kiện trên 20 tuần và truy được nguồn."
+  },
+  {
+    "id": "q17",
+    "strategy": "C",
+    "question": "What exercise position is off limits for Soldiers who are more than 20 weeks pregnant?",
+    "expected_answer": "They do not perform exercises lying on their backs.",
+    "filter_applied": null,
+    "same_top3_as": "B",
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p145:para:01",
+        "page": 145,
+        "section": "Chapter 12. Special Conditioning",
+        "text": "• Pregnant Soldiers will not exercise to exhaustion, breathlessness, or fatigue. If\nSoldiers exhibit these signs, leaders coach them to decrease the intensity or to\nstop vaginal bleeding, abdominal pain, regular painful contractions, and amniotic\nfluid leakage.\n• Pregnant Soldiers should be led in slow, deep breathing during all phases of\nexercise to prevent them from hyperventilating.\n• Soldiers more than 20 weeks pregnant do not perform exercises lying on their\nbacks.\n• Soldiers more than 20 weeks pregnant must use a splinting technique to support\ntheir abdomens during all abdominal exercises.\n• Weight bearing activities (running and jogging) for pregnant Soldiers are limited\nto 45-minutes to prevent decreased blood flow to the heart and uterus."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p145:para:02",
+        "page": 145,
+        "section": "Chapter 12. Special Conditioning",
+        "text": "• Pregnant Soldiers are not to perform activities that put them at risk of falling or\nbeing hit in the abdomen.\n• If a Soldier less than 20 weeks pregnant falls during an exercise, she should rest\nfor 10 minutes on her side and notify her health care provider for further\ninstruction. If symptoms of injury exist (such as cramping, bleeding, or swelling),\nthe Soldier should go to the emergency room. If the Soldier is more than 20\nweeks pregnant, then she needs to seek immediate care at the medical treatment\nfacility."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p146:para:03",
+        "page": 146,
+        "section": "Chapter 12. Special Conditioning",
+        "text": "12-43. It is safe for Soldiers to continue or start most types of exercise during a normal, uncomplicated\npregnancy. Soldiers who were very active before pregnancy or are experienced runners, for example, may be\ncleared by medical providers to keep doing the same workouts well into their pregnancies. Physical activity\ndoes not increase risk of miscarriage, low birth weight, or premature delivery. The benefits of exercise during\npregnancy include the following:\n• Decreased risk of pregnancy-related medical complications.\n• Reduced back pain.\n• Healthy weight gain during pregnancy and healthy weight loss afterwards.\n• Improved maintenance of overall physical readiness and health."
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Top-3 giống hệt B. Hạng 1 (trang 145) có trọn câu \"Soldiers more than 20 weeks pregnant do not perform exercises lying on their backs\": đủ điều kiện trên 20 tuần và truy được nguồn."
+  },
+  {
+    "id": "q18",
+    "strategy": "A",
+    "question": "In the Sleep Readiness chapter, how many hours of sleep per night should Soldiers get in the two weeks before travel or a mission?",
+    "expected_answer": "8 or more hours of sleep per night.",
+    "filter_applied": null,
+    "same_top3_as": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p129:fixed:02",
+        "page": 129,
+        "section": "Chapter 11. Sleep Readiness",
+        "text": "e amount of sleep prior to a mission improves performance during that mission and,\nas a bonus, reduces the amount of sleep subsequently needed to recover from that mission . When possible,\nleaders should provide Soldiers the opportunity for extended sleep (10 hours in bed per night may be optimal)\nfor several consecutive nights (for at least one week, if possible) prior to missions likely to involve significant\nsleep loss. L eaders should encourage Soldiers to take appropriate advantage of this "
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p134:fixed:02",
+        "page": 134,
+        "section": "Chapter 11. Sleep Readiness",
+        "text": ", or disturbance of a sleeping partner with snoring\nand/or gasping at night.\nSleep Readiness\nSoldiers should sleep as much as they can, whenever they can, as the situation allows.\nThe vast majority of Soldiers require 7 -8 hours of sleep per night to sustain\nperformance; more sleep is better. Soldiers can maximize sleep and subsequent\nperformance by timing sleep and caffeine use optimally. Finally, only sleep replaces\nlost sleep."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p129:fixed:00",
+        "page": 129,
+        "section": "Chapter 11. Sleep Readiness",
+        "text": "Sleep Readiness\nTable 11-1. Maximizing mission sleep\nBefore\nTwo weeks prior, get 8 or more hours of sleep per night.\nStop caffeine and alcohol consumption at least 6 hours prior to scheduled sleep.\nDuring\nTake naps whenever possible to accumulate 7-8 hours of sleep in every 24 hour period.\nCaffeine can be used to reduce grogginess on awakening.\nSeparate day and night shift sleep areas.\nAfter\nTo reduce sleep debt or deprivation, plan on additional sleep time.\nIncrease sleep to 8 hours every 24 ho"
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Hạng 3 (trang 129, bảng 11-1) có \"Two weeks prior, get 8 or more hours of sleep per night\", đủ điều kiện hai tuần trước nhiệm vụ. Hai hạng đầu nêu con số khác (10 giờ nằm trên giường trong ít nhất một tuần; 7–8 giờ nói chung), nên bằng chứng đúng không nằm ở hạng cao nhất."
+  },
+  {
+    "id": "q18",
+    "strategy": "B",
+    "question": "In the Sleep Readiness chapter, how many hours of sleep per night should Soldiers get in the two weeks before travel or a mission?",
+    "expected_answer": "8 or more hours of sleep per night.",
+    "filter_applied": null,
+    "same_top3_as": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p134:para:01",
+        "page": 134,
+        "section": "Chapter 11. Sleep Readiness",
+        "text": "WHEN TO SEEK EXPERT HELP\n11-76. Soldiers should schedule appointments with healthcare providers if they have persistent daytime\nsleepiness, difficulty staying asleep, difficulty falling sleep, or disturbance of a sleeping partner with snoring\nand/or gasping at night.\nSleep Readiness\nSoldiers should sleep as much as they can, whenever they can, as the situation allows.\nThe vast majority of Soldiers require 7 -8 hours of sleep per night to sustain\nperformance; more sleep is better. Soldiers can maximize sleep and subsequent\nperformance by timing sleep and caffeine use optimally. Finally, only sleep replaces\nlost sleep."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p128:para:05",
+        "page": 128,
+        "section": "Chapter 11. Sleep Readiness",
+        "text": "11-42. Although Soldiers cannot train to perform better on less sleep, they can bank sleep. Sleep banking\nis achieved by significantly extending the nightly time in bed to more than 8 hours per night. Soldiers must\nbank sleep for multiple consecutive nights prior to embarking on a mission that is likely to result in inadequate\nsleep. The extra sleep they obtain in this manner creates a bank of sleep they use to sustain alertness and\nperformance during subsequent sleep loss (acute sleep deprivation or chronic sleep restriction)."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p129:para:00",
+        "page": 129,
+        "section": "Chapter 11. Sleep Readiness",
+        "text": "Sleep Readiness\nTable 11-1. Maximizing mission sleep\nBefore\nTwo weeks prior, get 8 or more hours of sleep per night.\nStop caffeine and alcohol consumption at least 6 hours prior to scheduled sleep.\nDuring\nTake naps whenever possible to accumulate 7-8 hours of sleep in every 24 hour period.\nCaffeine can be used to reduce grogginess on awakening.\nSeparate day and night shift sleep areas.\nAfter\nTo reduce sleep debt or deprivation, plan on additional sleep time.\nIncrease sleep to 8 hours every 24 hours to return to optimal alertness and performance."
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Hạng 3 (trang 129, bảng 11-1) có \"Two weeks prior, get 8 or more hours of sleep per night\". Hạng 2 (trang 128) bổ trợ: ngủ dự trữ hơn 8 giờ mỗi đêm trước nhiệm vụ. Hạng 1 chỉ nêu mức 7–8 giờ nói chung."
+  },
+  {
+    "id": "q18",
+    "strategy": "C",
+    "question": "In the Sleep Readiness chapter, how many hours of sleep per night should Soldiers get in the two weeks before travel or a mission?",
+    "expected_answer": "8 or more hours of sleep per night.",
+    "filter_applied": {
+      "section": "Chapter 11. Sleep Readiness"
+    },
+    "same_top3_as": "B",
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p134:para:01",
+        "page": 134,
+        "section": "Chapter 11. Sleep Readiness",
+        "text": "WHEN TO SEEK EXPERT HELP\n11-76. Soldiers should schedule appointments with healthcare providers if they have persistent daytime\nsleepiness, difficulty staying asleep, difficulty falling sleep, or disturbance of a sleeping partner with snoring\nand/or gasping at night.\nSleep Readiness\nSoldiers should sleep as much as they can, whenever they can, as the situation allows.\nThe vast majority of Soldiers require 7 -8 hours of sleep per night to sustain\nperformance; more sleep is better. Soldiers can maximize sleep and subsequent\nperformance by timing sleep and caffeine use optimally. Finally, only sleep replaces\nlost sleep."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p128:para:05",
+        "page": 128,
+        "section": "Chapter 11. Sleep Readiness",
+        "text": "11-42. Although Soldiers cannot train to perform better on less sleep, they can bank sleep. Sleep banking\nis achieved by significantly extending the nightly time in bed to more than 8 hours per night. Soldiers must\nbank sleep for multiple consecutive nights prior to embarking on a mission that is likely to result in inadequate\nsleep. The extra sleep they obtain in this manner creates a bank of sleep they use to sustain alertness and\nperformance during subsequent sleep loss (acute sleep deprivation or chronic sleep restriction)."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p129:para:00",
+        "page": 129,
+        "section": "Chapter 11. Sleep Readiness",
+        "text": "Sleep Readiness\nTable 11-1. Maximizing mission sleep\nBefore\nTwo weeks prior, get 8 or more hours of sleep per night.\nStop caffeine and alcohol consumption at least 6 hours prior to scheduled sleep.\nDuring\nTake naps whenever possible to accumulate 7-8 hours of sleep in every 24 hour period.\nCaffeine can be used to reduce grogginess on awakening.\nSeparate day and night shift sleep areas.\nAfter\nTo reduce sleep debt or deprivation, plan on additional sleep time.\nIncrease sleep to 8 hours every 24 hours to return to optimal alertness and performance."
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Top-3 giống hệt B. Filter không đổi top-3. Hạng 3 (trang 129, bảng 11-1) có \"Two weeks prior, get 8 or more hours of sleep per night\". Hạng 2 (trang 128) bổ trợ: ngủ dự trữ hơn 8 giờ mỗi đêm trước nhiệm vụ. Hạng 1 chỉ nêu mức 7–8 giờ nói chung."
+  },
+  {
+    "id": "q19",
+    "strategy": "A",
+    "question": "Besides aerobic and muscle-strengthening activity, what should older adults include in their weekly physical activity?",
+    "expected_answer": "Balance training, as part of multicomponent physical activity.",
+    "filter_applied": null,
+    "same_top3_as": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "hhs-pag-2018:p068:fixed:02",
+        "page": 68,
+        "section": "Chapter 5. Active Older Adults",
+        "text": ".\nAdults should also do muscle-strengthening activities of moderate or greater intensity\nand that involv\ne all major muscle groups on 2 or more days a week, as these activities\nprovide additional health benefits.\nGuidelines just for older adults:\nAs part of their weekly physical activity, older adults should do multicomponent physical\nactivity that includes balance tr\naining as well as aerobic and muscle-strengthening activities.\nOlder adults should determine their level of effort for physical a"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hhs-pag-2018:p069:fixed:00",
+        "page": 69,
+        "section": "Chapter 5. Active Older Adults",
+        "text": "Explaining the Key Guidelines\nAs with other adults, the key guidelines for older adults focus mainly on two types of activity—aerobic and\nmuscle-strengthening. In addition, these key guidelines discuss the importance of multicomponent physical\nactivity, which includes balance training along with aerobic and muscle-strengthening activity. Each provides\nimportant health benefits, especially to improve physical function, as explained in Chapter 2. Physical Activity\nand Health.\nAerobic Activity\nAero"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hhs-pag-2018:p069:fixed:03",
+        "page": 69,
+        "section": "Chapter 5. Active Older Adults",
+        "text": "ount of moderate-to-vigorous physical activity is more important than the length of each\nphysical activity episode. In general, muscle-strengthening activities do not count toward meeting the aerobic\nkey guidelines. Table 5-1 lists some examples of aerobic and muscle-strengthening activities for older adults.\nHow Much Total Activity a Week?\nOlder adults should aim to do at least 150 to 300 minutes of moderate-intensity physical activity a week, or an\nequivalent amount (75 to 150 minutes) of vigo"
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Hạng 1 (trang 68) có trọn câu hướng dẫn: người cao tuổi nên tập đa thành phần gồm balance training cùng aerobic và tăng cơ. Hạng 2 (trang 69) nhắc lại ý này."
+  },
+  {
+    "id": "q19",
+    "strategy": "B",
+    "question": "Besides aerobic and muscle-strengthening activity, what should older adults include in their weekly physical activity?",
+    "expected_answer": "Balance training, as part of multicomponent physical activity.",
+    "filter_applied": null,
+    "same_top3_as": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "hhs-pag-2018:p068:para:02",
+        "page": 68,
+        "section": "Chapter 5. Active Older Adults",
+        "text": "Adults should also do muscle-strengthening activities of moderate or greater intensity\nand that involv\ne all major muscle groups on 2 or more days a week, as these activities\nprovide additional health benefits.\nGuidelines just for older adults:\nAs part of their weekly physical activity, older adults should do multicomponent physical\nactivity that includes balance tr\naining as well as aerobic and muscle-strengthening activities.\nOlder adults should determine their level of effort for physical activity relative to their level\nof fitness.\nOlder adults with chr\nonic conditions should understand whether and how their conditions\naff\nect their ability to do regular physical activity safely."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hhs-pag-2018:p069:para:00",
+        "page": 69,
+        "section": "Chapter 5. Active Older Adults",
+        "text": "Explaining the Key Guidelines\nAs with other adults, the key guidelines for older adults focus mainly on two types of activity—aerobic and\nmuscle-strengthening. In addition, these key guidelines discuss the importance of multicomponent physical\nactivity, which includes balance training along with aerobic and muscle-strengthening activity. Each provides\nimportant health benefits, especially to improve physical function, as explained in Chapter 2. Physical Activity\nand Health."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hhs-pag-2018:p070:para:00",
+        "page": 70,
+        "section": "Chapter 5. Active Older Adults",
+        "text": "Older adults should strongly consider walking as one good way to get aerobic activity. Walking has many\nhealth benefits, and it has a low risk of injury. It can be done year round and in many settings.\nTable 5-1. Examples of Physical Activities for Older Adults\nAerobic Activities Muscle-Strengthening Activities\n• Walking or hiking\n• Dancing\n• Swimming\n• Water aerobics\n• Jogging or running\n• Aerobic exercise classes\n• Some forms of yoga\n• Bicycle riding (stationary or outdoors)\n• Some yard work, such as raking and pushing\na lawn mower\n• Sports like tennis or basketball\n• Walking as part of golf\n• Strengthening exercises using exercise bands,\nweight machines, or hand-held weights\n• Body-weight exercises (push-ups, pull-ups,\nplanks, squats, lunges)"
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Hạng 1 (trang 68) có trọn câu hướng dẫn: người cao tuổi nên tập đa thành phần gồm balance training cùng aerobic và tăng cơ. Hạng 2 (trang 69) nhắc lại ý này."
+  },
+  {
+    "id": "q19",
+    "strategy": "C",
+    "question": "Besides aerobic and muscle-strengthening activity, what should older adults include in their weekly physical activity?",
+    "expected_answer": "Balance training, as part of multicomponent physical activity.",
+    "filter_applied": null,
+    "same_top3_as": "B",
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "hhs-pag-2018:p068:para:02",
+        "page": 68,
+        "section": "Chapter 5. Active Older Adults",
+        "text": "Adults should also do muscle-strengthening activities of moderate or greater intensity\nand that involv\ne all major muscle groups on 2 or more days a week, as these activities\nprovide additional health benefits.\nGuidelines just for older adults:\nAs part of their weekly physical activity, older adults should do multicomponent physical\nactivity that includes balance tr\naining as well as aerobic and muscle-strengthening activities.\nOlder adults should determine their level of effort for physical activity relative to their level\nof fitness.\nOlder adults with chr\nonic conditions should understand whether and how their conditions\naff\nect their ability to do regular physical activity safely."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hhs-pag-2018:p069:para:00",
+        "page": 69,
+        "section": "Chapter 5. Active Older Adults",
+        "text": "Explaining the Key Guidelines\nAs with other adults, the key guidelines for older adults focus mainly on two types of activity—aerobic and\nmuscle-strengthening. In addition, these key guidelines discuss the importance of multicomponent physical\nactivity, which includes balance training along with aerobic and muscle-strengthening activity. Each provides\nimportant health benefits, especially to improve physical function, as explained in Chapter 2. Physical Activity\nand Health."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hhs-pag-2018:p070:para:00",
+        "page": 70,
+        "section": "Chapter 5. Active Older Adults",
+        "text": "Older adults should strongly consider walking as one good way to get aerobic activity. Walking has many\nhealth benefits, and it has a low risk of injury. It can be done year round and in many settings.\nTable 5-1. Examples of Physical Activities for Older Adults\nAerobic Activities Muscle-Strengthening Activities\n• Walking or hiking\n• Dancing\n• Swimming\n• Water aerobics\n• Jogging or running\n• Aerobic exercise classes\n• Some forms of yoga\n• Bicycle riding (stationary or outdoors)\n• Some yard work, such as raking and pushing\na lawn mower\n• Sports like tennis or basketball\n• Walking as part of golf\n• Strengthening exercises using exercise bands,\nweight machines, or hand-held weights\n• Body-weight exercises (push-ups, pull-ups,\nplanks, squats, lunges)"
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Top-3 giống hệt B. Hạng 1 (trang 68) có trọn câu hướng dẫn: người cao tuổi nên tập đa thành phần gồm balance training cùng aerobic và tăng cơ. Hạng 2 (trang 69) nhắc lại ý này."
+  },
+  {
+    "id": "q20",
+    "strategy": "A",
+    "question": "According to the WHO guidelines, how many minutes of moderate-intensity aerobic physical activity should adults aged 18–64 do each week for substantial health benefits?",
+    "expected_answer": "At least 150–300 minutes per week (or 75–150 minutes of vigorous-intensity activity, or an equivalent combination).",
+    "filter_applied": null,
+    "same_top3_as": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "who-pasb-2020:p042:fixed:01",
+        "page": 42,
+        "section": "Recommendations: Adults (aged 18-64 years)",
+        "text": "al activity.\nStrong recommendation, moderate certainty evidence\nAdults should do at least 150–300 minutes of moderate-intensity aerobic physical\nactivity; or at least 75–150 minutes of vigorous-intensity aerobic physical activity;\nor an equivalent combination of moderate- and vigorous-intensity activity\nthroughout the week, for substantial health benefits.\nStrong recommendation, moderate certainty evidence\nAdults should also do muscle-strengthening activities at moderate or greater intensity\ntha"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "who-pasb-2020:p062:fixed:06",
+        "page": 62,
+        "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)",
+        "text": " evidence\nAdults and older adults with these chronic conditions should do at least 150–300\nminutes of moderate-intensity aerobic physical activity; or at least 75–150 minutes of\nvigorous-intensity aerobic physical activity; or an equivalent combination of moderate-\nand vigorous-intensity activity throughout the week for substantial health benefits.\nStrong recommendation, moderate certainty evidence\nGOOD PRACTICE\nSTATEMENTS"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "who-pasb-2020:p014:fixed:00",
+        "page": 14,
+        "section": "Executive summary",
+        "text": "It is recommended that:\nAll older adults should undertake regular physical activity.\nStrong recommendation, moderate certainty evidence\nOlder adults should do at least 150–\n300 minutes of moderate-intensity\naerobic physical activity; or at\nleast 75–150 minutes of vigorous-\nintensity aerobic physical activity;\nor an equivalent combination of\nmoderate- and vigorous-intensity\nactivity throughout the week, for\nsubstantial health benefits.\nStrong recommendation, moderate certainty evidence\nOLDER ADUL"
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Hạng 1 (trang 42, mục Adults aged 18–64) có trọn khuyến nghị 150–300 phút cường độ vừa mỗi tuần, kèm phương án 75–150 phút cường độ cao. Nhóm tuổi xác định qua metadata section."
+  },
+  {
+    "id": "q20",
+    "strategy": "B",
+    "question": "According to the WHO guidelines, how many minutes of moderate-intensity aerobic physical activity should adults aged 18–64 do each week for substantial health benefits?",
+    "expected_answer": "At least 150–300 minutes per week (or 75–150 minutes of vigorous-intensity activity, or an equivalent combination).",
+    "filter_applied": null,
+    "same_top3_as": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "who-pasb-2020:p014:para:00",
+        "page": 14,
+        "section": "Executive summary",
+        "text": "It is recommended that:\nAll older adults should undertake regular physical activity.\nStrong recommendation, moderate certainty evidence\nOlder adults should do at least 150–\n300 minutes of moderate-intensity\naerobic physical activity; or at\nleast 75–150 minutes of vigorous-\nintensity aerobic physical activity;\nor an equivalent combination of\nmoderate- and vigorous-intensity\nactivity throughout the week, for\nsubstantial health benefits.\nStrong recommendation, moderate certainty evidence\nOLDER ADULTS\n(aged 65 years and older) OLDER ADULTS (aged 65 years and older)\n• Doing some physical activity is better than doing none.\n• If older adults are not meeting the recommendations, doing some physical activity will bring benefits to health."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "who-pasb-2020:p053:para:01",
+        "page": 53,
+        "section": "Recommendations: Older adults (aged 65 years and older)",
+        "text": "Strong recommendation, moderate certainty evidence\nOlder adults should do at least 150–300\nminutes of moderate-intensity aerobic\nphysical activity; or at least 75–150\nminutes of vigorous-intensity aerobic\nphysical activity; or an equivalent\ncombination of moderate- and vigorous-\nintensity activity throughout the week,\nfor substantial health benefits.\nStrong recommendation, moderate certainty evidence\nOlder adults should also do muscle-\nstrengthening activities at moderate\nor greater intensity that involve all\nmajor muscle groups on 2 or more days\na week, as these provide additional\nhealth benefits."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "who-pasb-2020:p042:para:01",
+        "page": 42,
+        "section": "Recommendations: Adults (aged 18-64 years)",
+        "text": "Strong recommendation, moderate certainty evidence\nAdults should do at least 150–300 minutes of moderate-intensity aerobic physical\nactivity; or at least 75–150 minutes of vigorous-intensity aerobic physical activity;\nor an equivalent combination of moderate- and vigorous-intensity activity\nthroughout the week, for substantial health benefits.\nStrong recommendation, moderate certainty evidence\nAdults should also do muscle-strengthening activities at moderate or greater intensity\nthat involve all major muscle groups on 2 or more days a week, as these provide\nadditional health benefits."
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Hạng 3 (trang 42, mục Adults aged 18–64) có trọn khuyến nghị 150–300 phút. Hai hạng đầu là khuyến nghị cho người cao tuổi (trang 14 và 53) với cùng con số; nhóm tuổi đúng chỉ xác định được qua metadata section của hạng 3."
+  },
+  {
+    "id": "q20",
+    "strategy": "C",
+    "question": "According to the WHO guidelines, how many minutes of moderate-intensity aerobic physical activity should adults aged 18–64 do each week for substantial health benefits?",
+    "expected_answer": "At least 150–300 minutes per week (or 75–150 minutes of vigorous-intensity activity, or an equivalent combination).",
+    "filter_applied": {
+      "publisher": "WHO"
+    },
+    "same_top3_as": "B",
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "who-pasb-2020:p014:para:00",
+        "page": 14,
+        "section": "Executive summary",
+        "text": "It is recommended that:\nAll older adults should undertake regular physical activity.\nStrong recommendation, moderate certainty evidence\nOlder adults should do at least 150–\n300 minutes of moderate-intensity\naerobic physical activity; or at\nleast 75–150 minutes of vigorous-\nintensity aerobic physical activity;\nor an equivalent combination of\nmoderate- and vigorous-intensity\nactivity throughout the week, for\nsubstantial health benefits.\nStrong recommendation, moderate certainty evidence\nOLDER ADULTS\n(aged 65 years and older) OLDER ADULTS (aged 65 years and older)\n• Doing some physical activity is better than doing none.\n• If older adults are not meeting the recommendations, doing some physical activity will bring benefits to health."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "who-pasb-2020:p053:para:01",
+        "page": 53,
+        "section": "Recommendations: Older adults (aged 65 years and older)",
+        "text": "Strong recommendation, moderate certainty evidence\nOlder adults should do at least 150–300\nminutes of moderate-intensity aerobic\nphysical activity; or at least 75–150\nminutes of vigorous-intensity aerobic\nphysical activity; or an equivalent\ncombination of moderate- and vigorous-\nintensity activity throughout the week,\nfor substantial health benefits.\nStrong recommendation, moderate certainty evidence\nOlder adults should also do muscle-\nstrengthening activities at moderate\nor greater intensity that involve all\nmajor muscle groups on 2 or more days\na week, as these provide additional\nhealth benefits."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "who-pasb-2020:p042:para:01",
+        "page": 42,
+        "section": "Recommendations: Adults (aged 18-64 years)",
+        "text": "Strong recommendation, moderate certainty evidence\nAdults should do at least 150–300 minutes of moderate-intensity aerobic physical\nactivity; or at least 75–150 minutes of vigorous-intensity aerobic physical activity;\nor an equivalent combination of moderate- and vigorous-intensity activity\nthroughout the week, for substantial health benefits.\nStrong recommendation, moderate certainty evidence\nAdults should also do muscle-strengthening activities at moderate or greater intensity\nthat involve all major muscle groups on 2 or more days a week, as these provide\nadditional health benefits."
+      }
+    ],
+    "score_0_2": 2,
+    "reason": "Top-3 giống hệt B. Filter không đổi top-3. Hạng 3 (trang 42, mục Adults aged 18–64) có trọn khuyến nghị 150–300 phút. Hai hạng đầu là khuyến nghị cho người cao tuổi (trang 14 và 53) với cùng con số; nhóm tuổi đúng chỉ xác định được qua metadata section của hạng 3."
+  }
+]

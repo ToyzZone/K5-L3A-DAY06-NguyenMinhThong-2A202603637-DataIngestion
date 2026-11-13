@@ -1,0 +1,659 @@
+[
+  {
+    "strategy": "B",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q16",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Which training period is the longest, and how long can it last?",
+    "expected_answer": "The base period, lasting up to twelve weeks.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 57,
+        "evidence_quote": "BASE 5-17. This is the period when the basic abilities of endurance, strength, speed , and movement skill are emphasized. This period is the longest of all the periods lasting up to twelve weeks."
+      },
+      {
+        "source_id": "fm7-22-2020",
+        "page": 55,
+        "evidence_quote": "Base (4–12 weeks) Build (4–8 weeks) Peak 1 (2–3 weeks) Combat / Peak 2 (2 weeks +) Recovery (4–8 weeks)"
+      },
+      {
+        "source_id": "fm7-22-2020",
+        "page": 56,
+        "evidence_quote": "Base (4–12 weeks) Build (4–8 weeks) Peak 1 (2–3 weeks) Combat / Peak 2 (2 weeks +) Recovery (4–8 weeks)"
+      }
+    ],
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p054:para:05",
+        "score": 0.7554,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 54,
+          "char_start": 3322,
+          "char_end": 4066,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 5. Periodization"
+        },
+        "text": "MACROCYCLE\n5-11. The longest period, usually lasting a year or more, is referred to as a macrocycle. This duration of\ntraining builds readiness towards a single peak within that time span. A twenty-year Army career would\ninclude multiple macrocycles. The goal for all Soldiers should be to complete their service in peak condition.\n5-12. Training periods described in this doctrine feature base period characterized by higher training volume\nand more training variety. Base periods transition to build periods and then to pre-combat and combat cycles\nthat feature much less volume and higher intensity. These later periods feature training specific to the\nessential physical and nonphysical tasks required in the combat mission (see table 5-1)."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p057:para:01",
+        "score": 0.7507,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 57,
+          "char_start": 768,
+          "char_end": 1494,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 5. Periodization"
+        },
+        "text": "BASE\n5-17. This is the period when the basic abilities of endurance, strength, speed , and movement skill are\nemphasized. This period is the longest of all the periods lasting up to twelve weeks. As most training in this\nperiod is relatively low intensity, it may be predominate in Soldier populations that do not have any pending\nprimary missions, deployments, or high-intensity schooling.\nBUILD\n5-18. This is the four to eight week period when the abilities from the base period are built upon with higher\nintensity and increased volume of training. Training effort begins to mimic the primary goal or mission and\nthe period ends with a simulation of the mission or a test . Leaders might implement a FTX or a practice\nACFT."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p053:para:02",
+        "score": 0.7082,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 53,
+          "char_start": 1124,
+          "char_end": 1759,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 5. Periodization"
+        },
+        "text": "5-2. Periodized training divides physical training into logical time periods. Each period—base, build, taper,\ncombat, and recovery—has a specific training goal that builds on the preceding period. Periods can be weeks\nto months long with an individual ’s periodized plan lasting for a year or more. Progress is measured across\nthe different domains of readiness, energy systems, and components of fitness. Adjustments are made to\navoid plateaus or reversals in fitness due to injury, illness, and unplanned life events. In a periodized plan,\ngoals change over time from general fitness to a narrower focus on specific task performance."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q17",
+    "split": "test",
+    "type": "conditional",
+    "question": "What exercise position is off limits for Soldiers who are more than 20 weeks pregnant?",
+    "expected_answer": "They do not perform exercises lying on their backs.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 145,
+        "evidence_quote": "Soldiers more than 20 weeks pregnant do not perform exercises lying on their backs."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p145:para:01",
+        "score": 0.8405,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 145,
+          "char_start": 571,
+          "char_end": 1328,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 12. Special Conditioning"
+        },
+        "text": "• Pregnant Soldiers will not exercise to exhaustion, breathlessness, or fatigue. If\nSoldiers exhibit these signs, leaders coach them to decrease the intensity or to\nstop vaginal bleeding, abdominal pain, regular painful contractions, and amniotic\nfluid leakage.\n• Pregnant Soldiers should be led in slow, deep breathing during all phases of\nexercise to prevent them from hyperventilating.\n• Soldiers more than 20 weeks pregnant do not perform exercises lying on their\nbacks.\n• Soldiers more than 20 weeks pregnant must use a splinting technique to support\ntheir abdomens during all abdominal exercises.\n• Weight bearing activities (running and jogging) for pregnant Soldiers are limited\nto 45-minutes to prevent decreased blood flow to the heart and uterus."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p145:para:02",
+        "score": 0.8206,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 145,
+          "char_start": 1329,
+          "char_end": 1849,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 12. Special Conditioning"
+        },
+        "text": "• Pregnant Soldiers are not to perform activities that put them at risk of falling or\nbeing hit in the abdomen.\n• If a Soldier less than 20 weeks pregnant falls during an exercise, she should rest\nfor 10 minutes on her side and notify her health care provider for further\ninstruction. If symptoms of injury exist (such as cramping, bleeding, or swelling),\nthe Soldier should go to the emergency room. If the Soldier is more than 20\nweeks pregnant, then she needs to seek immediate care at the medical treatment\nfacility."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p146:para:03",
+        "score": 0.806,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 146,
+          "char_start": 1950,
+          "char_end": 2636,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 12. Special Conditioning"
+        },
+        "text": "12-43. It is safe for Soldiers to continue or start most types of exercise during a normal, uncomplicated\npregnancy. Soldiers who were very active before pregnancy or are experienced runners, for example, may be\ncleared by medical providers to keep doing the same workouts well into their pregnancies. Physical activity\ndoes not increase risk of miscarriage, low birth weight, or premature delivery. The benefits of exercise during\npregnancy include the following:\n• Decreased risk of pregnancy-related medical complications.\n• Reduced back pain.\n• Healthy weight gain during pregnancy and healthy weight loss afterwards.\n• Improved maintenance of overall physical readiness and health."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q18",
+    "split": "test",
+    "type": "metadata",
+    "question": "In the Sleep Readiness chapter, how many hours of sleep per night should Soldiers get in the two weeks before travel or a mission?",
+    "expected_answer": "8 or more hours of sleep per night.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 127,
+        "evidence_quote": "Up to two weeks prior to trave ling, Soldiers pay down sleep debt and bank sleep by getting 8 or more hours of sleep per night."
+      },
+      {
+        "source_id": "fm7-22-2020",
+        "page": 129,
+        "evidence_quote": "Two weeks prior, get 8 or more hours of sleep per night."
+      }
+    ],
+    "filter": {
+      "section": "Chapter 11. Sleep Readiness"
+    },
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "filter_compliant": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p134:para:01",
+        "score": 0.8146,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 134,
+          "char_start": 709,
+          "char_end": 1333,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 11. Sleep Readiness"
+        },
+        "text": "WHEN TO SEEK EXPERT HELP\n11-76. Soldiers should schedule appointments with healthcare providers if they have persistent daytime\nsleepiness, difficulty staying asleep, difficulty falling sleep, or disturbance of a sleeping partner with snoring\nand/or gasping at night.\nSleep Readiness\nSoldiers should sleep as much as they can, whenever they can, as the situation allows.\nThe vast majority of Soldiers require 7 -8 hours of sleep per night to sustain\nperformance; more sleep is better. Soldiers can maximize sleep and subsequent\nperformance by timing sleep and caffeine use optimally. Finally, only sleep replaces\nlost sleep."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p128:para:05",
+        "score": 0.7971,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 128,
+          "char_start": 3333,
+          "char_end": 3866,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 11. Sleep Readiness"
+        },
+        "text": "11-42. Although Soldiers cannot train to perform better on less sleep, they can bank sleep. Sleep banking\nis achieved by significantly extending the nightly time in bed to more than 8 hours per night. Soldiers must\nbank sleep for multiple consecutive nights prior to embarking on a mission that is likely to result in inadequate\nsleep. The extra sleep they obtain in this manner creates a bank of sleep they use to sustain alertness and\nperformance during subsequent sleep loss (acute sleep deprivation or chronic sleep restriction)."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p129:para:00",
+        "score": 0.7956,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 129,
+          "char_start": 0,
+          "char_end": 551,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 11. Sleep Readiness"
+        },
+        "text": "Sleep Readiness\nTable 11-1. Maximizing mission sleep\nBefore\nTwo weeks prior, get 8 or more hours of sleep per night.\nStop caffeine and alcohol consumption at least 6 hours prior to scheduled sleep.\nDuring\nTake naps whenever possible to accumulate 7-8 hours of sleep in every 24 hour period.\nCaffeine can be used to reduce grogginess on awakening.\nSeparate day and night shift sleep areas.\nAfter\nTo reduce sleep debt or deprivation, plan on additional sleep time.\nIncrease sleep to 8 hours every 24 hours to return to optimal alertness and performance."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q19",
+    "split": "test",
+    "type": "direct",
+    "question": "Besides aerobic and muscle-strengthening activity, what should older adults include in their weekly physical activity?",
+    "expected_answer": "Balance training, as part of multicomponent physical activity.",
+    "gold": [
+      {
+        "source_id": "hhs-pag-2018",
+        "page": 68,
+        "evidence_quote": "As part of their weekly physical activity, older adults should do multicomponent physical activity that includes balance tr aining as well as aerobic and muscle-strengthening activities."
+      },
+      {
+        "source_id": "hhs-pag-2018",
+        "page": 69,
+        "evidence_quote": "In addition, these key guidelines discuss the importance of multicomponent physical activity, which includes balance training along with aerobic and muscle-strengthening activity."
+      },
+      {
+        "source_id": "who-pasb-2020",
+        "page": 53,
+        "evidence_quote": "As part of their weekly physical activity, older adults should do varied multicomponent physical activity that emphasizes functional balance and strength training at moderate or greater intensity, on 3 or more days a week, to enhance functional capacity and to prevent falls."
+      },
+      {
+        "source_id": "who-pasb-2020",
+        "page": 14,
+        "evidence_quote": "As part of their weekly physical activity, older adults should do varied multicomponent physical activity that emphasizes functional balance and strength training at moderate or greater intensity, on 3 or more days a week, to enhance functional capacity and to prevent falls."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "hhs-pag-2018:p068:para:02",
+        "score": 0.8774,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 68,
+          "char_start": 902,
+          "char_end": 1594,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 5. Active Older Adults"
+        },
+        "text": "Adults should also do muscle-strengthening activities of moderate or greater intensity\nand that involv\ne all major muscle groups on 2 or more days a week, as these activities\nprovide additional health benefits.\nGuidelines just for older adults:\nAs part of their weekly physical activity, older adults should do multicomponent physical\nactivity that includes balance tr\naining as well as aerobic and muscle-strengthening activities.\nOlder adults should determine their level of effort for physical activity relative to their level\nof fitness.\nOlder adults with chr\nonic conditions should understand whether and how their conditions\naff\nect their ability to do regular physical activity safely."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hhs-pag-2018:p069:para:00",
+        "score": 0.8383,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 69,
+          "char_start": 0,
+          "char_end": 478,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 5. Active Older Adults"
+        },
+        "text": "Explaining the Key Guidelines\nAs with other adults, the key guidelines for older adults focus mainly on two types of activity—aerobic and\nmuscle-strengthening. In addition, these key guidelines discuss the importance of multicomponent physical\nactivity, which includes balance training along with aerobic and muscle-strengthening activity. Each provides\nimportant health benefits, especially to improve physical function, as explained in Chapter 2. Physical Activity\nand Health."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hhs-pag-2018:p070:para:00",
+        "score": 0.8329,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 70,
+          "char_start": 0,
+          "char_end": 755,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 5. Active Older Adults"
+        },
+        "text": "Older adults should strongly consider walking as one good way to get aerobic activity. Walking has many\nhealth benefits, and it has a low risk of injury. It can be done year round and in many settings.\nTable 5-1. Examples of Physical Activities for Older Adults\nAerobic Activities Muscle-Strengthening Activities\n• Walking or hiking\n• Dancing\n• Swimming\n• Water aerobics\n• Jogging or running\n• Aerobic exercise classes\n• Some forms of yoga\n• Bicycle riding (stationary or outdoors)\n• Some yard work, such as raking and pushing\na lawn mower\n• Sports like tennis or basketball\n• Walking as part of golf\n• Strengthening exercises using exercise bands,\nweight machines, or hand-held weights\n• Body-weight exercises (push-ups, pull-ups,\nplanks, squats, lunges)"
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q20",
+    "split": "test",
+    "type": "metadata",
+    "question": "According to the WHO guidelines, how many minutes of moderate-intensity aerobic physical activity should adults aged 18–64 do each week for substantial health benefits?",
+    "expected_answer": "At least 150–300 minutes per week (or 75–150 minutes of vigorous-intensity activity, or an equivalent combination).",
+    "gold": [
+      {
+        "source_id": "who-pasb-2020",
+        "page": 42,
+        "evidence_quote": "Adults should do at least 150–300 minutes of moderate-intensity aerobic physical activity"
+      },
+      {
+        "source_id": "who-pasb-2020",
+        "page": 12,
+        "evidence_quote": "Adults should do at least 150– 300 minutes of moderate-intensity aerobic physical activity"
+      }
+    ],
+    "filter": {
+      "publisher": "WHO"
+    },
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "filter_compliant": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "who-pasb-2020:p014:para:00",
+        "score": 0.8726,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 14,
+          "char_start": 0,
+          "char_end": 740,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Executive summary"
+        },
+        "text": "It is recommended that:\nAll older adults should undertake regular physical activity.\nStrong recommendation, moderate certainty evidence\nOlder adults should do at least 150–\n300 minutes of moderate-intensity\naerobic physical activity; or at\nleast 75–150 minutes of vigorous-\nintensity aerobic physical activity;\nor an equivalent combination of\nmoderate- and vigorous-intensity\nactivity throughout the week, for\nsubstantial health benefits.\nStrong recommendation, moderate certainty evidence\nOLDER ADULTS\n(aged 65 years and older) OLDER ADULTS (aged 65 years and older)\n• Doing some physical activity is better than doing none.\n• If older adults are not meeting the recommendations, doing some physical activity will bring benefits to health."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "who-pasb-2020:p053:para:01",
+        "score": 0.8709,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 53,
+          "char_start": 619,
+          "char_end": 1224,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Recommendations: Older adults (aged 65 years and older)"
+        },
+        "text": "Strong recommendation, moderate certainty evidence\nOlder adults should do at least 150–300\nminutes of moderate-intensity aerobic\nphysical activity; or at least 75–150\nminutes of vigorous-intensity aerobic\nphysical activity; or an equivalent\ncombination of moderate- and vigorous-\nintensity activity throughout the week,\nfor substantial health benefits.\nStrong recommendation, moderate certainty evidence\nOlder adults should also do muscle-\nstrengthening activities at moderate\nor greater intensity that involve all\nmajor muscle groups on 2 or more days\na week, as these provide additional\nhealth benefits."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "who-pasb-2020:p042:para:01",
+        "score": 0.8688,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 42,
+          "char_start": 463,
+          "char_end": 1054,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Recommendations: Adults (aged 18-64 years)"
+        },
+        "text": "Strong recommendation, moderate certainty evidence\nAdults should do at least 150–300 minutes of moderate-intensity aerobic physical\nactivity; or at least 75–150 minutes of vigorous-intensity aerobic physical activity;\nor an equivalent combination of moderate- and vigorous-intensity activity\nthroughout the week, for substantial health benefits.\nStrong recommendation, moderate certainty evidence\nAdults should also do muscle-strengthening activities at moderate or greater intensity\nthat involve all major muscle groups on 2 or more days a week, as these provide\nadditional health benefits."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q28",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "How can comparing sleep on days off with sleep on duty days reveal a sleep debt?",
+    "expected_answer": "Sleeping two or more hours longer on days off than on duty days indicates a significant sleep debt.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 123,
+        "evidence_quote": "As a rule of thumb, any Soldier who sleeps two or more hours longer on days off (versus duty days) carries a significant sleep debt."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p123:para:02",
+        "score": 0.7517,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 123,
+          "char_start": 1225,
+          "char_end": 1851,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 11. Sleep Readiness"
+        },
+        "text": "As a rule of thumb, any Soldier who\nsleeps two or more hours longer on days off (versus duty days) carries a significant sleep debt.\n11-12. Even for those who regularly obtain the generally recommended 7–8 hours of sleep per night, more\nsleep can result in even better alertness and mental acuity. In brain health and mental functioning, there is no\nsuch thing as too much sleep. Therefore, to maximize brain health and functioning in an operational\nenvironment, Soldiers aim to maximize sleep as much as possible within the constraints of the operation. As\nsleep duration increases, so does the likelihood of mission success."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p131:para:02",
+        "score": 0.7251,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 131,
+          "char_start": 727,
+          "char_end": 1071,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 11. Sleep Readiness"
+        },
+        "text": "Although rest breaks reverse that portion of the performance deficit caused\nby time-on-task, such breaks do not reverse deficits associated with sleepiness per se (unless, of course,\nSoldiers get some sleep during the rest break). Sleep loss effects and time-on-task effects interactively impair\nperformance but require different interventions."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p122:para:02",
+        "score": 0.7232,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 122,
+          "char_start": 1132,
+          "char_end": 1889,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 11. Sleep Readiness"
+        },
+        "text": "These include hormone release, digestion, muscle strength, and\ncardiovascular performance. Circadian rhythms act in tandem with the need to sleep which builds throughout\na day. These rhythms optimize the process of falling asleep, staying asleep, and ensuring quality sleep.\n11-6. However, Soldiers can only achieve such benefits if they get adequate sleep (for most individuals, 7 to\n9 hours of sleep per night) on a regular basis. If they get less sleep (for example, 6 hours per night during the\nduty week), then a “sleep debt” accrues. In such cases, it is better to sleep in on off-duty days and pay down\nthe sleep debt, rather than sacrificing sleep to try to maintain a consistent sleep-wake schedule and strengthen\nthe circadian rhythm of alertness."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q29",
+    "split": "test",
+    "type": "direct",
+    "question": "Who directs a Soldier's entry into Category 1 reconditioning, and when?",
+    "expected_answer": "The healthcare provider, during the Soldier's initial visit.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 140,
+        "evidence_quote": "Entry into Category 1 is directed by the healthcare provider during the Soldier ’s initial visit."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p136:para:00",
+        "score": 0.7527,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 136,
+          "char_start": 0,
+          "char_end": 785,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 12. Special Conditioning"
+        },
+        "text": "RECONDITIONING\n12-6. Reconditioning is unit-owned. Reconditioning is a unit-driven and unit-run physical readiness training\nprogram for Soldiers who are deconditioned due to illness or injury, are new to the unit, or deconditioned\ndue to deployment or other circumstances. Soldiers who have completed rehabilitation and been given\npermanent profile restrictions may be appropriate for certain reconditioning program elements. All Soldiers\nwill have progressed in their recovery to the point where they can safely train without the direct supervision\nof a healthcare provider or communication between the medical provider and H2F personnel will allow the\nSoldier to safely train in the reconditioning program. Reconditioning returns Soldiers safely and as soon as\npossible to full duty."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p139:para:01",
+        "score": 0.7088,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 139,
+          "char_start": 766,
+          "char_end": 1473,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 12. Special Conditioning"
+        },
+        "text": "Governance\n12-26. In non-H2F resourced units, consolidation of reconditioning programs at the battalion (or equivalent)\nminimizes the administrative and logistical strain on operational unit assets. The brigade surgeon should have\nmedical oversight of the unit reconditioning program. Battalion medical officers act as the liaisons between\nreconditioning program leaders ( RPLs) and the brigade surgeon. The military treatment facility with\nrehabilitation services may provide a physical therapist and a physical therapy specialist as consultants to\noversee the gym-based reconditioning program Category 1 (see paragraph 12-32). The physical therapist can\nassist or coordinate training efforts with the RPL."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p139:para:04",
+        "score": 0.7081,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 139,
+          "char_start": 2842,
+          "char_end": 3589,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 12. Special Conditioning"
+        },
+        "text": "Program\n12-29. The reconditioning program aims to return a Soldier to full duty as soon as possible. Group\nreconditioning programs with governance and equipment challenges use modifications (known as mods) to\nstandardized physical readiness drills and activities so Soldiers safely progress and comply with exercise\nmodifications in their profiles. Using non -standardized exercises and drills confounds this approach and\nprevents Soldiers from complying with the rehabilitation plan developed with the healthcare provider. These\ndrills and activities, learned in the initial phase of training, include foundational movements that Soldiers\nmust maintain throughout their career. These drills and activities are pre-habilitative and rehabilitative."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q30",
+    "split": "test",
+    "type": "metadata",
+    "question": "According to the Physical Activity Guidelines for Americans, how much moderate-intensity aerobic activity should women do each week during pregnancy and the postpartum period?",
+    "expected_answer": "At least 150 minutes (2 hours and 30 minutes) a week.",
+    "gold": [
+      {
+        "source_id": "hhs-pag-2018",
+        "page": 80,
+        "evidence_quote": "Women should do at least 150 minutes (2 hours and 30 minutes) of moderate-intensity aerobic activity a week during pregnancy and the postpartum period."
+      }
+    ],
+    "filter": {
+      "publisher": "HHS"
+    },
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "filter_compliant": false,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "who-pasb-2020:p016:para:01",
+        "score": 0.9152,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 16,
+          "char_start": 654,
+          "char_end": 1389,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Executive summary"
+        },
+        "text": "Women who, before pregnancy, habitually engaged in vigorous-\nintensity aerobic activity, or who were physically active, can continue\nthese activities during pregnancy and the postpartum period.\nStrong recommendation, moderate certainty evidence\nDo at least 150 minutes of moderate-\nintensity aerobic physical activity\nthroughout the week for substantial\nhealth benefits.\nStrong recommendation, moderate certainty evidence\nIncorporate a variety of aerobic and muscle-\nstrengthening activities. Adding gentle\nstretching may also be beneficial.\nStrong recommendation, moderate certainty evidence\nPREGNANT AND POSTPARTUM WOMEN PREGNANT AND POSTPARTUM WOMEN\nGOOD PRACTICE\nSTATEMENTS\n• Doing some physical activity\nis better than doing none."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "who-pasb-2020:p057:para:04",
+        "score": 0.8896,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 57,
+          "char_start": 1833,
+          "char_end": 2602,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Recommendations: Pregnant and postpartum women"
+        },
+        "text": "It is recommended that all pregnant and postpartum women without contraindication should:\nundertake regular physical activity throughout pregnancy and postpartum;\nStrong recommendation, moderate certainty evidence\ndo at least 150 minutes of moderate-intensity aerobic physical activity throughout\nthe week for substantial health benefits; and\nStrong recommendation, moderate certainty evidence\nincorporate a variety of aerobic and muscle-strengthening activities. Adding gentle\nstretching may also be beneficial.\nStrong recommendation, moderate certainty evidence\nIn addition:\nWomen who, before pregnancy, habitually engaged in vigorous-intensity aerobic\nactivity, or who were physically active, can continue these activities during pregnancy\nand the postpartum period."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hhs-pag-2018:p080:para:03",
+        "score": 0.8748,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 80,
+          "char_start": 1820,
+          "char_end": 2591,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 6. Additional Considerations for Some Adults"
+        },
+        "text": "Physical Activity in People With Chronic Health Conditions or Disabilities\nThis section addresses both adults with chronic conditions and adults with disabilities. Some adults with\nchronic conditions may develop an acute or chronic disability as a result of their chronic condition. Some people\nKey Guidelines for Women During\nPregnancy and the Postpartum Period\nWomen should do at least 150 minutes (2 hours and 30 minutes) of moderate-intensity\naerobic activity a week during pregnancy and the postpartum period. Preferably, aerobic\nactivity should be spread throughout the week.\nWomen who habitually engaged in vigorous-intensity aerobic activity or who were\nphysically activ\ne before pregnancy can continue these activities during pregnancy and\nthe postpartum period."
+      }
+    ]
+  }
+]

@@ -9,8 +9,8 @@
     "chunk_id": "fm7-22-2020:p038:fixed:02",
     "chars": 500,
     "text": "ed with meticulous attention to the precise replication of\nthe movements required in occupational tasks and combat. Movement skill must be deliberately and\npurposely progressed until it becomes a natural part of Soldier performance in training and in contact with\nthe enemy.\n3-5. One characteristic of movement —speed—serves as an example. Speed improves with the proper\ndevelopment of aerobic and anaerobic energy systems along with muscular strength and endurance. Drills\nand exercises are the mean",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 1,
+    "reason": "Bắt đầu giữa từ (\"ed with\") nên câu đầu mất chủ ngữ; kết thúc giữa từ (\"the mean\"). Câu chứa vị trí (\"Movement skill must be…\") còn nguyên. Chunk gộp đuôi đoạn 3-4 với đầu đoạn 3-5."
   },
   {
     "position": 1,
@@ -22,8 +22,8 @@
     "chunk_id": "fm7-22-2020:p038:para:01",
     "chars": 407,
     "text": "Reaction time The interval between an external stimuli and the Soldier’s response.\n3-4. Movement lethality has to be taught and learned with meticulous attention to the precise replication of\nthe movements required in occupational tasks and combat. Movement skill must be deliberately and\npurposely progressed until it becomes a natural part of Soldier performance in training and in contact with\nthe enemy.",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 2,
+    "reason": "Trọn đoạn 3-4, bắt đầu ở số đoạn, có chủ thể, kết thúc ở cuối câu. Dòng đầu (\"Reaction time…\") là hàng cuối của bảng định nghĩa phía trước, bị tách khỏi bảng; không cản việc hiểu đoạn. Ca giáp ranh giữa 1 và 2."
   },
   {
     "position": 2,
@@ -35,8 +35,8 @@
     "chunk_id": "fm7-22-2020:p073:fixed:02",
     "chars": 500,
     "text": "cket example, our movement is initially in the horizontal plane—forward—via gravitational\ntorque. The body becomes a lever as its mass pivots around the base of support—the foot. The pivot ends as\nthe toes are pulled from the ground. If the front of the foot is used as the base of support throughout the\nduration of contact with the ground, less time will be spent pivoting on the ground, allowing an earlier pull.\nThe point is not to s imply land on a specific part of the foot, the point is to rea",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 1,
+    "reason": "Bắt đầu giữa từ (\"cket example\") và kết thúc giữa từ (\"to rea\"), nên câu kết luận của đoạn bị cắt. Câu chứa vị trí còn nguyên."
   },
   {
     "position": 2,
@@ -48,8 +48,8 @@
     "chunk_id": "fm7-22-2020:p073:para:02",
     "chars": 799,
     "text": "7-19. Like the rocket example, our movement is initially in the horizontal plane—forward—via gravitational\ntorque. The body becomes a lever as its mass pivots around the base of support—the foot. The pivot ends as\nthe toes are pulled from the ground. If the front of the foot is used as the base of support throughout the\nduration of contact with the ground, less time will be spent pivoting on the ground, allowing an earlier pull.\nThe point is not to s imply land on a specific part of the foot, the point is to reach a position to continue\nmoving forward as efficiently as possible. The movement forward —the fall—can conclude only when the\nfoot no longer support s the body ’s weight. Falling over can be preve nted only by rapidly reestablishing\nbalance—a new base to support the body’s weight.",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 2,
+    "reason": "Trọn đoạn 7-19, kết thúc ở cuối câu. Câu mở đầu nhắc \"the rocket example\" nằm ngoài chunk, nhưng ý chính vẫn được nêu đủ. Ca giáp ranh giữa 1 và 2."
   },
   {
     "position": 3,
@@ -61,8 +61,8 @@
     "chunk_id": "fm7-22-2020:p109:fixed:00",
     "chars": 500,
     "text": "Mental Readiness\n9-52. Cohesion can be either socially -based or task -based. Task cohesion represents the amount of work\nSoldiers perform together to accomplish common goals. Social cohesion the term used to describe the affinity\nSoldiers have for one another in the form of mutual respect. High social cohesion results from working\ntogether toward shared goals and having respect for one another.\nMental Readiness\nTo optimize performance, Soldiers need to be mentally ready. Mental readiness is\ndel",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 1,
+    "reason": "Chứa trọn đoạn 9-52, nhưng ý tại vị trí (khung tóm tắt Mental Readiness) chỉ còn câu đầu rồi bị cắt giữa từ (\"is del\")."
   },
   {
     "position": 3,
@@ -74,8 +74,8 @@
     "chunk_id": "fm7-22-2020:p109:para:01",
     "chars": 466,
     "text": "Mental Readiness\nTo optimize performance, Soldiers need to be mentally ready. Mental readiness is\ndeliberately assessed and developed like any other skills through education , training,\nand practice. To use a computing analogy, addressing both physical and mental\nreadiness is a “systems check” on both the “hardware” and the “software” that makes\nan effective Soldier. The H2F System incorporates training techniques to develop\nindividual and unit mental readiness.",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 2,
+    "reason": "Trọn khung tóm tắt Mental Readiness kèm tiêu đề, kết thúc ở cuối câu."
   },
   {
     "position": 4,
@@ -87,8 +87,8 @@
     "chunk_id": "fm7-22-2020:p144:fixed:04",
     "chars": 500,
     "text": "the same times as their units under the supervision of medical providers or exercise\nleaders certified in P3T. When the unit trains as a whole, it maintains cohesion, reinforces performance, and\nsustains unit readiness and retention. Sometimes multiple units consolidate P3T education classes for Soldiers\nto establish support networks and to promote peer reinforcement on topics about pregnancy, labor and\ndelivery, newborn babies, and parenting issues. Instructors can use classrooms in the SPRC to",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 1,
+    "reason": "Bắt đầu giữa câu, mất chủ thể \"pregnant Soldiers\"; kết thúc giữa câu (\"in the SPRC to\"). Câu chứa vị trí còn nguyên; ngữ cảnh mang thai chỉ suy ra được từ câu sau."
   },
   {
     "position": 4,
@@ -100,8 +100,8 @@
     "chunk_id": "fm7-22-2020:p144:para:03",
     "chars": 716,
     "text": "12-41. In the H2F System, pregnant Soldiers perform the majority of their special programs in the same\nenvironments and at the same times as their units under the supervision of medical providers or exercise\nleaders certified in P3T. When the unit trains as a whole, it maintains cohesion, reinforces performance, and\nsustains unit readiness and retention. Sometimes multiple units consolidate P3T education classes for Soldiers\nto establish support networks and to promote peer reinforcement on topics about pregnancy, labor and\ndelivery, newborn babies, and parenting issues. Instructors can use classrooms in the SPRC to teach these\nsessions while the rest of the unit performs other H2F training in the building.",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 2,
+    "reason": "Trọn đoạn 12-41, nêu rõ chủ thể (pregnant Soldiers), kết thúc ở cuối câu."
   },
   {
     "position": 5,
@@ -113,8 +113,8 @@
     "chunk_id": "fm7-22-2020:p180:fixed:04",
     "chars": 500,
     "text": "n foot marches.\n14-36. Leaders conduct the ACFT in accordance to AR 40-501, using information in ATP 7-22.01, and the\ncourse program of instruction. During AIT, leaders schedule the ACFT in week 14 (see table 14- 9). During\nOSUT, leaders schedule the ACFT in week 22 (see table 14-10 beginning on page 14-27). In both cases,\nleaders may move the ACFT earlier in the cycle especially if a cumulative FTX is proposed for the\npenultimate week of training. A practice ACFT scheduled at the beginning of t",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 1,
+    "reason": "Mở đầu bằng mẩu đuôi của đoạn trước (\"n foot marches.\"), rồi đoạn 14-36 từ đầu nhưng bị cắt giữa từ ở cuối (\"beginning of t\"). Câu chứa vị trí còn nguyên."
   },
   {
     "position": 5,
@@ -126,8 +126,8 @@
     "chunk_id": "fm7-22-2020:p180:para:03",
     "chars": 668,
     "text": "14-36. Leaders conduct the ACFT in accordance to AR 40-501, using information in ATP 7-22.01, and the\ncourse program of instruction. During AIT, leaders schedule the ACFT in week 14 (see table 14- 9). During\nOSUT, leaders schedule the ACFT in week 22 (see table 14-10 beginning on page 14-27). In both cases,\nleaders may move the ACFT earlier in the cycle especially if a cumulative FTX is proposed for the\npenultimate week of training. A practice ACFT scheduled at the beginning of the two-week peak period\nprecedes the record test. For longer or shorter AIT courses, leaders can adjust the pattern of train-peak-test\naround other program of instruction requirements.",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 2,
+    "reason": "Trọn đoạn 14-36, kết thúc ở cuối câu. Các từ viết tắt (ACFT, AIT, OSUT) là thuật ngữ dùng chung của tài liệu."
   },
   {
     "position": 6,
@@ -139,8 +139,8 @@
     "chunk_id": "fm7-22-2020:p214:fixed:02",
     "chars": 500,
     "text": "achine RR release run\nFW free weight training SDC sprint-drag-carry\nFWA free weight assistive sec second\nFWC free weight core SSD shoulder stability drill\nHSD hip stability drill ST suspension training drill\nLM landmine drill STC strength training circuit\nMB medicine ball drill\nRESERVE COMPONENT\n14-58. Reserve Component Soldiers conduct one hour of training for every 16 hours of unit training during\ninactive duty training periods. During annual training periods, units should try to conduct physi",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 1,
+    "reason": "Vị trí nằm trong bảng chú giải từ viết tắt: chunk bắt đầu giữa từ (\"achine\") và không có bảng mà chú giải này giải thích. Tiếp theo là tiêu đề RESERVE COMPONENT và đoạn 14-58 bị cắt giữa từ (\"physi\"). Từng dòng chú giải vẫn đọc được."
   },
   {
     "position": 6,
@@ -152,8 +152,8 @@
     "chunk_id": "fm7-22-2020:p214:para:02",
     "chars": 713,
     "text": "CD conditioning drill rep repetition\nCL climbing drill RPE rating of perceived exertion\nETM endurance training machine RR release run\nFW free weight training SDC sprint-drag-carry\nFWA free weight assistive sec second\nFWC free weight core SSD shoulder stability drill\nHSD hip stability drill ST suspension training drill\nLM landmine drill STC strength training circuit\nMB medicine ball drill\nRESERVE COMPONENT\n14-58. Reserve Component Soldiers conduct one hour of training for every 16 hours of unit training during\ninactive duty training periods. During annual training periods, units should try to conduct physical training\nfive times per week (see table 14-19). The three week annual training schedule includes—",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 1,
+    "reason": "Bảng chú giải bị chia đôi theo dòng (nửa đầu nằm ở chunk trước) và tách khỏi bảng mà nó giải thích, lại gộp chung với mục mới (RESERVE COMPONENT, đoạn 14-58). Đoạn 14-58 dừng ở câu dẫn \"includes—\", danh sách nằm ở chunk sau. Từng dòng chú giải vẫn đọc được."
   },
   {
     "position": 7,
@@ -165,8 +165,8 @@
     "chunk_id": "hhs-pag-2018:p044:fixed:02",
     "chars": 500,
     "text": "ness without increasing the risk of negative pregnacy outcomes, such as low\nbirth weight, preterm delivery, or early pregnancy loss. Physical activity during the postpartum period (first\nyear after delivery) also improves the mother’s cardiorespiratory fitness, decreases symptoms of postpartum\ndepression, and, when combined with caloric restriction, can help her return to her pre-pregnancy body weight\nafter delivery.\nAdverse Events\nSome people hesitate to become active or increase their\nlevel of",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 1,
+    "reason": "Bắt đầu giữa từ (\"ness\") nên câu đầu mất chủ ngữ; cuối chunk là tiêu đề Adverse Events và một câu bị cắt. Câu chứa vị trí (hoạt động thể chất sau sinh) còn nguyên và có chủ thể."
   },
   {
     "position": 7,
@@ -178,8 +178,8 @@
     "chunk_id": "hhs-pag-2018:p044:para:01",
     "chars": 712,
     "text": "Women During Pregnancy and the Postpartum Period\nModerate-intensity physical activity is safe for generally healthy women during pregnancy. Physical activity\nreduces the risk of excessive weight gain and gestational diabetes during pregnancy. Physical activity\nincreases cardiorespiratory fitness without increasing the risk of negative pregnacy outcomes, such as low\nbirth weight, preterm delivery, or early pregnancy loss. Physical activity during the postpartum period (first\nyear after delivery) also improves the mother’s cardiorespiratory fitness, decreases symptoms of postpartum\ndepression, and, when combined with caloric restriction, can help her return to her pre-pregnancy body weight\nafter delivery.",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 2,
+    "reason": "Tiêu đề mục cùng trọn đoạn về phụ nữ mang thai và sau sinh, kết thúc ở cuối câu."
   },
   {
     "position": 8,
@@ -191,8 +191,8 @@
     "chunk_id": "hhs-pag-2018:p082:fixed:03",
     "chars": 500,
     "text": "ometer\nor from wheelchair walking.\nSome people with disabilities also need supervised activity to help with an exercise program. For example,\nsome people may need assistance when per\nforming muscle-strengthening activities, such as lifting weights.\nSpecial Considerations for Specific Chronic Conditions and Disabilities\nPhysical Activity in Adults With\nOsteoarthritis\nOsteoarthritis is a common condition in older adults, and\npeople can live many years with osteoarthritis. People with\nosteoarthriti",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 1,
+    "reason": "Bắt đầu giữa từ (\"ometer\"); cuối chunk là tiêu đề mục mới và đoạn về viêm xương khớp bị cắt giữa từ (\"osteoarthriti\"). Đoạn chứa vị trí còn nguyên."
   },
   {
     "position": 8,
@@ -204,8 +204,8 @@
     "chunk_id": "hhs-pag-2018:p082:para:02",
     "chars": 711,
     "text": "Meeting the Key Guidelines\nPeople with chronic conditions or disabilities are encouraged to create an individualized physical activity plan.\nIt is a good idea to get advice from professionals with experience in physical activity and disability because\nmatching activity to abilities can require modifying physical activity in many different ways. For example, a\nperson with a disability or condition affecting leg function may get aerobic activity from an arm ergometer\nor from wheelchair walking.\nSome people with disabilities also need supervised activity to help with an exercise program. For example,\nsome people may need assistance when per\nforming muscle-strengthening activities, such as lifting weights.",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 2,
+    "reason": "Tiêu đề Meeting the Key Guidelines cùng hai đoạn trọn vẹn, có chủ thể, kết thúc ở cuối câu."
   },
   {
     "position": 9,
@@ -217,8 +217,8 @@
     "chunk_id": "who-pasb-2020:p031:fixed:05",
     "chars": 500,
     "text": "critical flaw with or without noncritical weaknesses,\nor multiple noncritical weaknesses; and “critically low”\nsignifies that more than one critical flaw was present.\nOne reviewer completed the AMSTAR 2 tool for all\nprovisionally included reviews. Reviews that were\nrated critically low by one reviewer were reviewed by a\nsecond reviewer using the same tool. Reviews ultimately\nrated as critically low were excluded because they were\njudged to be too unreliable to provide an accurate and\ncomprehensi",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 1,
+    "reason": "Bắt đầu giữa câu định nghĩa các mức xếp hạng; kết thúc giữa từ (\"comprehensi\"), mất phần ngoại lệ ở cuối câu. Câu chứa vị trí còn nguyên."
   },
   {
     "position": 9,
@@ -230,8 +230,8 @@
     "chunk_id": "who-pasb-2020:p031:para:04",
     "chars": 672,
     "text": "One reviewer completed the AMSTAR 2 tool for all\nprovisionally included reviews. Reviews that were\nrated critically low by one reviewer were reviewed by a\nsecond reviewer using the same tool. Reviews ultimately\nrated as critically low were excluded because they were\njudged to be too unreliable to provide an accurate and\ncomprehensive summary of the available evidence, unless\nit was the only review available for a particular outcome.\nThis body of evidence also included pooled cohort studies.\nAn external team of reviewers used the Newcastle-\nOttawa Scale to assess the quality of the studies (39). Each\nstudy was given a quality rating of “good” , “fair” , or “poor” .",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 2,
+    "reason": "Hai đoạn trọn vẹn, bắt đầu ở đầu đoạn và kết thúc ở cuối câu. AMSTAR 2 và mức \"critically low\" được giới thiệu ở đoạn trước, nhưng quy trình mô tả vẫn hiểu được. Ca giáp ranh giữa 1 và 2."
   },
   {
     "position": 10,
@@ -243,8 +243,8 @@
     "chunk_id": "who-pasb-2020:p065:fixed:05",
     "chars": 500,
     "text": " hypertension (35). Findings\nshow that as systolic blood pressure increases within\nhypertensive ranges, the risk of cardiovascular disease\nmortality increases, but this increased risk is attenuated\nwith higher levels of physical activity (35). Similar to\nrecommendations for the general population, most of the\ntraditional interventions are based around 30–60 minutes\nof moderate-intensity aerobic activity, 3 days per week,\nand/or 2–3 sessions of resistance training per week.\nThere is substantial e",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 1,
+    "reason": "Mở đầu bằng mẩu đuôi của câu trước (\"hypertension (35).\"), kết thúc giữa từ (\"substantial e\"). Hai câu ở giữa, gồm câu chứa vị trí, còn nguyên; chủ thể tăng huyết áp suy ra được."
   },
   {
     "position": 10,
@@ -256,7 +256,7 @@
     "chunk_id": "who-pasb-2020:p065:para:03",
     "chars": 606,
     "text": "There is a clear dose-response relationship between\nphysical activity and cardiovascular disease mortality\nfor people living with hypertension (35). Findings\nshow that as systolic blood pressure increases within\nhypertensive ranges, the risk of cardiovascular disease\nmortality increases, but this increased risk is attenuated\nwith higher levels of physical activity (35). Similar to\nrecommendations for the general population, most of the\ntraditional interventions are based around 30–60 minutes\nof moderate-intensity aerobic activity, 3 days per week,\nand/or 2–3 sessions of resistance training per week.",
-    "score_0_2": null,
-    "reason": ""
+    "score_0_2": 2,
+    "reason": "Trọn đoạn về tăng huyết áp, nêu chủ thể ngay câu đầu, kết thúc ở cuối câu."
   }
 ]
