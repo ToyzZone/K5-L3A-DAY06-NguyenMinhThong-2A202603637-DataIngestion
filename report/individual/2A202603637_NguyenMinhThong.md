@@ -1,5 +1,7 @@
 # Báo cáo cá nhân — Day 6
 
+**Học viên:** Nguyễn Minh Thông · **MSSV:** 2A202603637 · **Lớp:** L3A
+
 ## Dữ liệu và pipeline
 
 **Chủ đề, nguồn, quyền, số trang.** Corpus về thể lực và hoạt động thể chất, gồm ba tài liệu tiếng Anh công khai:
@@ -147,4 +149,13 @@ Phân bố điểm coherence: A có 10 chunk điểm 1; B có 9 chunk điểm 2 
 - Dùng công cụ đọc PDF có thông tin bố cục để tách đoạn và tiêu đề chính xác hơn.
 - Viết thêm câu test, nhất là cho HHS và WHO.
 
-**Công cụ AI và cách kiểm tra.** Claude Code hỗ trợ viết code pipeline, soạn nháp bộ câu hỏi, đề xuất nhãn coherence, metadata, grounding và soạn nháp báo cáo này. Các kiểm tra tự động đã chạy: evidence của 30 câu so với corpus, tự kiểm tra cho chunking, cách chấm hit và vector store, chạy lại để so trace. Học viên đã tự chấm lại 20 nhãn coherence, duyệt toàn bộ nhãn metadata và grounding, và đọc lại cả 30 câu hỏi cùng đáp án, evidence. Việc đọc lại 30 câu được làm sau khi đã chạy thí nghiệm và không câu nào bị sửa.
+**Phần học viên quyết định và tự làm.**
+
+- **Chủ đề và corpus:** chọn chủ đề thể lực, quyết định dùng cả ba tài liệu và đặt trọng tâm vào FM 7-22. Vì vậy 20 trên 30 câu hỏi đến từ tài liệu này.
+- **Dữ liệu trong repo:** quyết định commit PDF gốc sau khi đối chiếu quy định nộp bài.
+- **Embedding model:** quyết định dùng `BAAI/bge-small-en-v1.5` chạy local.
+- **Chấm tay:** tự chấm từng ca trong 20 ca coherence; duyệt 30 nhãn metadata và 15 nhãn grounding.
+- **Benchmark:** đọc lại cả 30 câu hỏi cùng đáp án và evidence.
+- **Kiểm soát tiến độ:** quyết định thời điểm commit, push và chuyển bước.
+
+**Công cụ AI và cách kiểm tra.** Claude Code hỗ trợ viết code pipeline, soạn nháp bộ câu hỏi, đề xuất nhãn coherence, metadata, grounding và soạn nháp báo cáo này. Các kiểm tra tự động đã chạy: evidence của 30 câu so với corpus, tự kiểm tra cho chunking, cách chấm hit và vector store, chạy lại để so trace. Phần kiểm tra bằng tay do học viên làm, như liệt kê ở trên.
