@@ -48,7 +48,7 @@ cd starter && .venv/bin/python -m scripts.verify_benchmark
 Script báo lỗi nếu: evidence không nằm nguyên văn trên trang gold, trang gold không phải trang nội dung, filter loại chính trang gold của nó, giá trị filter không có trong corpus, dev và test dùng chung trang gold, hoặc thiếu số lượng tối thiểu (20 câu, 15 dev, 5 test, 3 câu filter trong đó 1 câu test). Script cũng cảnh báo khi evidence chính xuất hiện nguyên văn ở trang chưa được liệt kê.
 
 - Kiểm chứng tự động: đạt (30/30 câu, không cảnh báo).
-- [ ] Học viên đọc lại từng câu, đáp án và evidence trên PDF gốc.
+- [x] Học viên đọc lại từng câu, đáp án và evidence (làm sau khi đã chạy thí nghiệm; không câu nào bị sửa).
 
 Bộ câu hỏi được soạn nháp với trợ giúp của AI (Claude Code), evidence trích bằng script từ text đã chuẩn hóa.
 

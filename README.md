@@ -72,6 +72,7 @@ python -m src.run test               # chỉ chạy sau khi đã chốt cấu h�
 | Nội dung | Đường dẫn |
 |---|---|
 | Nguồn, giấy phép, trang được tính | [data/manifest.json](data/manifest.json), [starter/data/sources.json](starter/data/sources.json) |
+| Log trang rỗng, trang bị loại và lý do | Trường `excluded_pages` của từng nguồn trong [data/manifest.json](data/manifest.json): 124 trang, trong đó 9 trang không trích được ký tự nào |
 | Câu hỏi, gold, quy tắc chia dev/test, tiêu chí chọn cấu hình | [benchmark/](benchmark/) |
 | Code pipeline | [starter/src/](starter/src/) |
 | Cấu hình và giả thuyết A/B/C | [artifacts/experiment_log.csv](artifacts/experiment_log.csv) |

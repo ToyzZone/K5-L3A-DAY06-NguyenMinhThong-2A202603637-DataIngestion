@@ -147,4 +147,4 @@ Phân bố điểm coherence: A có 10 chunk điểm 1; B có 9 chunk điểm 2 
 - Dùng công cụ đọc PDF có thông tin bố cục để tách đoạn và tiêu đề chính xác hơn.
 - Viết thêm câu test, nhất là cho HHS và WHO.
 
-**Công cụ AI và cách kiểm tra.** Claude Code hỗ trợ viết code pipeline, soạn nháp bộ câu hỏi, đề xuất nhãn coherence, metadata, grounding và soạn nháp báo cáo này. Các kiểm tra tự động đã chạy: evidence của 30 câu so với corpus, tự kiểm tra cho chunking, cách chấm hit và vector store, chạy lại để so trace. Học viên đã tự chấm lại 20 nhãn coherence và duyệt toàn bộ nhãn metadata, grounding. Việc học viên đọc lại 30 câu hỏi trên PDF gốc: CHỜ HOÀN THÀNH.
+**Công cụ AI và cách kiểm tra.** Claude Code hỗ trợ viết code pipeline, soạn nháp bộ câu hỏi, đề xuất nhãn coherence, metadata, grounding và soạn nháp báo cáo này. Các kiểm tra tự động đã chạy: evidence của 30 câu so với corpus, tự kiểm tra cho chunking, cách chấm hit và vector store, chạy lại để so trace. Học viên đã tự chấm lại 20 nhãn coherence, duyệt toàn bộ nhãn metadata và grounding, và đọc lại cả 30 câu hỏi cùng đáp án, evidence. Việc đọc lại 30 câu được làm sau khi đã chạy thí nghiệm và không câu nào bị sửa.
