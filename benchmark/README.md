@@ -62,3 +62,9 @@ Chọn trên **dev**, theo thứ tự ưu tiên:
 4. Nếu vẫn bằng: ít chunk và thời gian ingest ngắn hơn.
 
 Test chỉ chạy một lần sau khi đã cố định cấu hình, không dùng để chỉnh.
+
+## Mẫu chấm tay (chốt trước khi chạy test)
+
+- **Coherence:** 10 trang nội dung cách đều nhau theo thứ tự corpus (cứ 34 trang lấy một, bắt đầu từ trang thứ 18), lấy ký tự giữa trang. Mỗi chunking (A, B) chấm chunk chứa vị trí đó; C dùng chung chunk với B. Bảng chấm: [results/audit/coherence.json](../results/audit/coherence.json).
+- **Metadata và grounding:** 5 câu test đầu theo ID (q16–q20), cùng 5 câu cho cả ba cấu hình. Bảng chấm được tạo từ trace test và không hiển thị cờ hit, để nhãn tay độc lập với điểm tự động.
+- **Tuân thủ filter:** tính tự động trên toàn bộ câu có filter của từng tập (dev 4 câu, test 3 câu).

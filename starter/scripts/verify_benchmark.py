@@ -7,20 +7,11 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from src.evaluation import golds, squash
 from src.ingestion import DATA_DIR, load_corpus
 
 PATH = Path(sys.argv[1]) if len(sys.argv) > 1 else DATA_DIR.parents[1] / "benchmark" / "questions.json"
 REQUIRED = ("id", "split", "type", "question", "expected_answer", "gold_source_id", "gold_page", "evidence_quote")
-
-
-def squash(text: str) -> str:
-    """Evidence is matched case-sensitively after collapsing whitespace (page text keeps line breaks)."""
-    return " ".join(text.split())
-
-
-def golds(q: dict) -> list[tuple[str, int, str]]:
-    return [(q["gold_source_id"], q["gold_page"], q["evidence_quote"])] + [
-        (g["source_id"], g["page"], g["evidence_quote"]) for g in q.get("alt_gold", [])]
 
 
 _, pages, _ = load_corpus()

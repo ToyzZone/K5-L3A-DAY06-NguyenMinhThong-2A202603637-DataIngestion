@@ -1,0 +1,131 @@
+{
+  "run_at": "2026-11-13T18:00:04+07:00",
+  "split": "dev",
+  "questions": 22,
+  "top_k": 3,
+  "content_pages": 342,
+  "embedding": {
+    "provider": "local sentence-transformers",
+    "model": "BAAI/bge-small-en-v1.5",
+    "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "dimensions": 384,
+    "max_tokens": 512,
+    "device": "mps:0",
+    "normalized": true,
+    "query_prefix": "Represent this sentence for searching relevant passages: ",
+    "document_prefix": ""
+  },
+  "store": {
+    "engine": "PostgreSQL 16.16 (Debian 16.16-1.pgdg12+1) + pgvector 0.8.7",
+    "table": "chunks",
+    "metric": "cosine (<=>)",
+    "search": "exact sequential scan, no ANN index"
+  },
+  "versions": {
+    "python": "3.12.2",
+    "sentence-transformers": "5.7.0",
+    "torch": "2.15.0",
+    "psycopg": "3.3.8",
+    "pypdf": "6.21.4"
+  },
+  "configs": {
+    "A": {
+      "index": "A",
+      "filter": false
+    },
+    "B": {
+      "index": "B",
+      "filter": false
+    },
+    "C": {
+      "index": "B",
+      "filter": true
+    }
+  },
+  "indexes": {
+    "A": {
+      "chunking": "fixed",
+      "chunk_size": 500,
+      "overlap": 50,
+      "chunks": 2407,
+      "rows_after_reingest": 2407,
+      "chars": 1124602,
+      "length_min": 51,
+      "length_median": 500,
+      "length_mean": 467,
+      "length_p90": 500,
+      "length_max": 500,
+      "chunks_under_100_chars": 33,
+      "tokens": 235456,
+      "chunks_truncated_by_model": 0,
+      "embed_seconds": 44.0,
+      "store_seconds": 1.4,
+      "cost_usd": 0
+    },
+    "B": {
+      "chunking": "paragraph",
+      "chunk_size": 800,
+      "overlap": 0,
+      "chunks": 1805,
+      "rows_after_reingest": 1805,
+      "chars": 1019889,
+      "length_min": 10,
+      "length_median": 622,
+      "length_mean": 565,
+      "length_p90": 774,
+      "length_max": 800,
+      "chunks_under_100_chars": 74,
+      "tokens": 210619,
+      "chunks_truncated_by_model": 0,
+      "embed_seconds": 38.5,
+      "store_seconds": 1.5,
+      "cost_usd": 0
+    }
+  },
+  "metrics": {
+    "A": {
+      "dev": {
+        "n": 22,
+        "hit_at_1": 12,
+        "hit_at_3": 17,
+        "filter_questions": 4,
+        "filter_compliant": 1,
+        "evidence_in_one_chunk": 18,
+        "misses_at_3": [
+          "q03",
+          "q04",
+          "q07",
+          "q11",
+          "q13"
+        ]
+      }
+    },
+    "B": {
+      "dev": {
+        "n": 22,
+        "hit_at_1": 15,
+        "hit_at_3": 20,
+        "filter_questions": 4,
+        "filter_compliant": 0,
+        "evidence_in_one_chunk": 22,
+        "misses_at_3": [
+          "q03",
+          "q14"
+        ]
+      }
+    },
+    "C": {
+      "dev": {
+        "n": 22,
+        "hit_at_1": 16,
+        "hit_at_3": 21,
+        "filter_questions": 4,
+        "filter_compliant": 4,
+        "evidence_in_one_chunk": 22,
+        "misses_at_3": [
+          "q03"
+        ]
+      }
+    }
+  }
+}

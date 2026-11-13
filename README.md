@@ -45,3 +45,36 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+## Bài làm: corpus fitness và cách chạy lại
+
+Corpus gồm ba tài liệu công khai về thể lực: FM 7-22 (Lục quân Mỹ, 2020), Physical Activity Guidelines for Americans (HHS, 2018) và hướng dẫn về hoạt động thể chất của WHO (2020), tổng cộng 342 trang nội dung. PDF nằm trong [starter/data/pdf/](starter/data/pdf/); nguồn, giấy phép và danh sách trang được tính nằm trong [data/manifest.json](data/manifest.json).
+
+Cần Docker, Python 3.11 trở lên và khoảng 1,3 GB đĩa cho thư viện embedding (torch) cùng model. Model `BAAI/bge-small-en-v1.5` chạy local, tự tải ở lần chạy đầu, không cần API key.
+
+```bash
+cd starter
+python3 -m venv .venv && source .venv/bin/activate
+python -m pip install -r requirements.txt
+cp .env.example .env
+docker compose -p day6_student_starter up -d --wait
+python scripts/check_setup.py
+
+python -m scripts.build_manifest     # dựng lại data/manifest.json từ PDF
+python -m scripts.verify_benchmark   # kiểm chứng evidence của 30 câu hỏi
+python -m src.chunking               # tự kiểm tra chunking
+python -m src.evaluation             # tự kiểm tra cách chấm hit
+python -m src.store                  # tự kiểm tra pgvector: nạp lại, xóa chunk cũ, filter
+python -m src.run dev                # nạp index A và B, chạy A/B/C trên dev
+python -m src.run test               # chỉ chạy sau khi đã chốt cấu hình trên dev
+```
+
+| Nội dung | Đường dẫn |
+|---|---|
+| Nguồn, giấy phép, trang được tính | [data/manifest.json](data/manifest.json), [starter/data/sources.json](starter/data/sources.json) |
+| Câu hỏi, gold, quy tắc chia dev/test, tiêu chí chọn cấu hình | [benchmark/](benchmark/) |
+| Code pipeline | [starter/src/](starter/src/) |
+| Cấu hình và giả thuyết A/B/C | [artifacts/experiment_log.csv](artifacts/experiment_log.csv) |
+| Trace top-3, chỉ số, thống kê index, phiên bản | `results/dev/`, `results/test/` |
+| Bảng chấm tay | `results/audit/` |
+| Báo cáo cá nhân | [report/individual/](report/individual/) |

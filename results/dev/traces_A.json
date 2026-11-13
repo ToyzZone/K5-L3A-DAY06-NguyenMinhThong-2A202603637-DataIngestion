@@ -1,0 +1,1764 @@
+[
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "What daily sodium limit does a healthy eating pattern set for adults?",
+    "expected_answer": "Less than 2,300 milligrams per day.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 85,
+        "evidence_quote": "Healthy eating patterns limit sodium to less than 2,300 milligrams per day for adults."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p082:fixed:02",
+        "score": 0.7743,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 82,
+          "char_start": 900,
+          "char_end": 1400,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "• Saturated and trans fats—less than 10 percent calories per day from saturated fats.\n• Sodium—consume less than 2300 milligrams per day from sodium.\nImportance of calorie balance within a healthy eating pattern\nManaging calorie intake is fundamental to achieving and maintaining calorie balance—\nthe balance between the calories taken in from foods and the calories expended from\nmetabolic processes and physical activity.\nKEY COMPONENTS OF HEALTHY EATING PATTERNS\n8-7. All foods and many beverages "
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p085:fixed:00",
+        "score": 0.7653,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 85,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "Nutritional Readiness\n8-15. Soldiers need to limit sodium consumption. Healthy eating patterns limit sodium to less than 2,300\nmilligrams per day for adults. Sodium is an essential nutrient and is needed by the body in relatively small\nquantities, provided that substantial sweating does not occur.\n8-16. Soldiers need to limit alcohol consumption. In the strictest sense, alcohol is not a performance nutrient.\nIf Soldiers consume alcohol, it should be in moderation —up to one drink per day for wom"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p094:fixed:02",
+        "score": 0.7009,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 94,
+          "char_start": 900,
+          "char_end": 1400,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "one may not be adequate for restoring or maintaining electrolyte balance.\n8-67. Foods that naturally provide sodium and potassium should be selected. Dried fruits are optimal food\nchoices for potassium. Even if heat acclimatization has occurred, leaders must understand the importance of\nsalt: 200–400 milligrams of sodium can be lost per pound of sweat, along with sodium excreted in the urine.\nAdding salt to foods (1/2 teaspoon provides 1,200 milligrams) or including sodium-rich foods in the diet"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "How long is the H2F program in Basic Combat Training?",
+    "expected_answer": "10 weeks.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 32,
+        "evidence_quote": "The 10-week H2F program for BCT provides foundational readiness and fundamental physical and mental skills."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p032:fixed:00",
+        "score": 0.7995,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 32,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 2. Phases"
+        },
+        "text": "BASIC COMBAT TRAINING\n2-6. The 10-week H2F program for BCT provides foundational readiness and fundamental physical and\nmental skills. New Soldiers report to BCT with various levels of potential. The first weeks of training focus\non general progression of physical readiness. To minimize the risk of injury, Soldiers must perform exercises\ncorrectly, precisely, and with gradually increasing intensity. To imprint the motor skills required for\nfundamental physical demand tasks, Soldiers repeat the e"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p216:fixed:02",
+        "score": 0.763,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 216,
+          "char_start": 900,
+          "char_end": 1400,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules"
+        },
+        "text": "eal unit H2F program strives to give Soldiers the knowledge they need to conduct their own\nquality training sessions between unit assemblies. The training program should increase Soldier motivation\nso they habitually train on their own. Incorporating this training into inactive duty training periods is one way\nto affect motivation with the added benefit of providing commanders a readiness snapshot. For example,\nteaching drills during unit assemblies so that Soldiers can then practice on their ow"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p161:fixed:00",
+        "score": 0.7586,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 161,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules"
+        },
+        "text": "Holistic Health and Fitness Schedules\nH2F training schedule development is a complex process. This chapter directs the\nprogramming and provides template examples of how H2F is delivered.\nINCORPORATING H2F TRAINING\n14-1. Multiple variables impact the ability to apply one training schedule as a standard approach across all\nof the Army. These variables include the length of the training cycle, time until operational , time until\ndeployment, cadre to Soldier ratios, shift work, availability of the H"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q03",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which energy pathway fuels very short, high-power efforts, and for how many seconds?",
+    "expected_answer": "The phosphagen pathway (stored ATP and phosphocreatine), for about 5-10 seconds.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 44,
+        "evidence_quote": "In the phosphagen pathway, adenosine triphosphate stored in the muscle and another molecule called phosphocreatine provide the energy for very short duration (5-10 seconds), high intensity or high power activities."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p044:fixed:07",
+        "score": 0.7238,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 44,
+          "char_start": 3150,
+          "char_end": 3650,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 4. Physiology"
+        },
+        "text": "e the use of other energy pathways and those pathways will begin to predominate. Rest intervals between\nbouts of high-intensity exercises should be 2 to 5 minutes to support molecule restoration.\nGLYCOLYTIC PATHWAY\n4-8. The glycolytic pathway is the predominant source of energy for high-intensity exercise lasting up to\n90 seconds. As its name suggests, this pathway breaks down glucose (sugar) in the blood and glycogen (sugar\ndeposit) stored in the muscle cells. The chemical reactions in this sys"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p045:fixed:01",
+        "score": 0.6782,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 45,
+          "char_start": 450,
+          "char_end": 950,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 4. Physiology"
+        },
+        "text": "lism is called\nbeta oxidation. Leaders typically use prolonged, low-intensity training such as Foot Marches, Release Runs,\nand Ability Group Runs to increase aer obic endurance. This type of training encourages the metabolism of\nfat for fuel. Its use of training uses much shorter rest intervals than the phosphagen pathway. Rests of as little\nas 5 to 10 seconds are common during low-intensity intervals.\n4-10. Carbohydrates, the body ’s main fuel source, are broken down into glucose and stored as "
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p061:fixed:03",
+        "score": 0.6608,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 61,
+          "char_start": 1350,
+          "char_end": 1850,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 6. Program Design"
+        },
+        "text": "gue. High levels of\nanaerobic endurance are essential for carrying heavy loads.\n6-12. Power is the application of strength over time. Muscular power is a result of both the strength and\nspeed requirements of an activity, which is also descr ibed as the rate of work per unit of time. The duration\nof power training is in seconds, or fraction of seconds , and is characterized by maximal effo rt. Power\nworkouts include five to six repetitions of short, explosive work against high levels of resistanc"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": false,
+    "id": "q04",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Which muscle fibers hold up best against fatigue, and what do they give up in return?",
+    "expected_answer": "Type I fibers; they contract more slowly and generate less force.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 47,
+        "evidence_quote": "Type I fibers are more resistant to fatigue than the others , but Type I fibers have a slower contractile speed and generate less force."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p047:fixed:00",
+        "score": 0.7168,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 47,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 4. Physiology"
+        },
+        "text": "Physiology\nFigure 4-1. Fiber type training\nType I\n4-20. Muscle contractions during low -intensity endurance efforts are mainly assigned to Type I or slow\noxidative (known as SO) fibers. These fibers are smaller with more mitochondria (parts of the cell that assist\nwith energy production) and capillaries (blood vessels) surrounding them to deliver more oxygen to the fiber.\nType I fibers are more resistant to fatigue than the others , but Type I fibers have a slower contractile speed\nand generate "
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p047:fixed:01",
+        "score": 0.6987,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 47,
+          "char_start": 450,
+          "char_end": 950,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 4. Physiology"
+        },
+        "text": "bers have a slower contractile speed\nand generate less force.\nType IIa\n4-21. During moderate-intensity effort such as one mi le runs, Type IIa or fast oxidative -glycolytic (known\nas FOG) fibers are the main determinants of performance. These fibers ’ size, contractile ability , and\nresistance to fatigue make them the main ones Soldiers should target in their training. Training to build\nmuscle size (hypertrophy) and strength or using moderate to moderate hard intensity ( RPE 8/10) when\nperformin"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p065:fixed:05",
+        "score": 0.6872,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 65,
+          "char_start": 2250,
+          "char_end": 2750,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 6. Program Design"
+        },
+        "text": "muscle fibers and is the primary means of recruiting fat for fuel. Over time, this type of\nactivity reduces the Soldier’s lean muscle. Because common Soldier tasks and HPDTs require more power\nand strength than endurance, sustained endurance training should not comprise the majority of a Soldier ’s\nphysical training program.\n6-33. Anaerobic training recruits type II muscle fibers and uses glucose (sugar) for fuel from 30 seconds to\nthree minutes. During this time , glycolysis predominates over o"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q05",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What dangerous condition can result from drinking too much water?",
+    "expected_answer": "Hyponatremia: excessive dilution of sodium in the blood.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 91,
+        "evidence_quote": "Overhydrating can cause excessive dilution of sodium in the blood, a potentially life-threatening condition called hyponatremia."
+      },
+      {
+        "source_id": "fm7-22-2020",
+        "page": 93,
+        "evidence_quote": "Too much wa ter can result in hyponatremia."
+      },
+      {
+        "source_id": "fm7-22-2020",
+        "page": 163,
+        "evidence_quote": "It is possible to drink too much water and become overhydrated or hyponatremic."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p091:fixed:00",
+        "score": 0.7732,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 91,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "Nutritional Readiness\nOVERHYDRATING\nOverhydrating can cause excessive dilution of sodium in the\nblood, a potentially life-threatening condition called hyponatremia.\nIn situations where Soldiers are drinking to a schedule or regimen\nover prolonged periods of less intense physical activity, it is\nimportant to consider risk factors, signs, and ways to mitigate this\ncondition.\nRISK FACTORS:\n• Cool and less humid conditions that make fluid loss\nconsiderably less than expected\n• Overconsumption of bev"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p163:fixed:04",
+        "score": 0.7065,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 163,
+          "char_start": 1800,
+          "char_end": 2300,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules"
+        },
+        "text": "8–10 glasses of water per day.\nHYPONATREMIA\nIt is possible to drink too much water and become overhydrated or\nhyponatremic. Be sure to limit intake to no more than 11⁄2 quarts\nper hour (48 ounces) during sustained exertion.\nClothing\n14-13. Leaders ensure that the clothing is comfortable for the climate and bright or reflective enough for\noutdoor activity conducted in the dark on roadways or sidewalks. Recruits should never wear rubberized or\nplastic suits, facemasks , or other restrictive breath"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p090:fixed:08",
+        "score": 0.6984,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 90,
+          "char_start": 3600,
+          "char_end": 3669,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "reatment of heat illness, and most especially hyponatremia incidents."
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q06",
+    "split": "dev",
+    "type": "conditional",
+    "question": "When building a ruck marching program, above what load relative to body weight should increases be made with caution?",
+    "expected_answer": "Above 30 percent of body weight.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 70,
+        "evidence_quote": "Loads above 30 percent of body weight should be increased with caution."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p070:fixed:01",
+        "score": 0.7624,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 70,
+          "char_start": 450,
+          "char_end": 950,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 7. Physical Readiness"
+        },
+        "text": "• Once per week progressive ruck march: progress one factor each week of either weight of the load,\ndistance of the march, speed of the march, gradient of the terrain or roughness of the terrain.\n• Loads above 30 percent of body weight should be increased with caution.\n• Do not do long marches, endurance runs, or heavy leg strength workouts on consecutive days.\n• Strength training performed with free weights and strength training machines (STMs) at least three\ndays per week, moving from high rep"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p048:fixed:07",
+        "score": 0.7109,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 48,
+          "char_start": 3150,
+          "char_end": 3650,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 4. Physiology"
+        },
+        "text": " “strain” on the physiological\nsystems. If an individual needs to lift a 100-pound object, and his or her maximal strength or lifting capacity\nis 200 pounds, the relative workload for this task would equal 50 percent. If performing a foot march with a\nloaded pack requires an oxygen consu mption of 2.0 liters per minute and the individual ’s VO 2 max is 3.0\nliters per minute, the relative workload would equal 66 percent. Therefore, improving absolute workload\nlowers the relative workload for fixe"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p071:fixed:00",
+        "score": 0.709,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 71,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 7. Physical Readiness"
+        },
+        "text": "Physical Readiness\nTable 7-3. 20-week ruck marching progression\nWeek Recommended Load Distance (miles) Time Standard Pace\n1-2 15–20 lb 2 35 min +/- 5 min 3 mph\n4 25–30 lb 4 65 min +/- 5 min 3 mph\n6 30–35 lb 4 90 min +/- 5 min 3 mph\n8 50–60 lb 6 None 3 mph\n12 60–70 lb 6 None 3 mph\n16 60–80 lb 6 None 3.5 mph\n20 60–80 lb 8 None 3.5 mph\nlb pounds mins minutes mph miles per hour\nRUNNING SKILL\n7-10. Running instruction has challenged the U.S. Army for the last decade. It has been one of the most\ncommo"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": false,
+    "id": "q07",
+    "split": "dev",
+    "type": "direct",
+    "question": "How much carbohydrate should a pre-exercise meal contain, and how long before exercise should it be eaten?",
+    "expected_answer": "1 to 4 grams of carbohydrate per kilogram of body weight, eaten 1 to 4 hours before exercise.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 88,
+        "evidence_quote": "Research suggests a pre-exercise meal containing 1 to 4 grams of carbohydrate per kilogram of body weight, consumed 1 to 4 hours prior to exercise provides improved performance."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p088:fixed:02",
+        "score": 0.8629,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 88,
+          "char_start": 900,
+          "char_end": 1400,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": " 4 hours prior to exercise provides improved performance. Table 8-1 provides\nexamples of pre-exercise meals. If unable to consume a meal prior to early morning exercise, consuming\napproximately 30 grams of easily digested carbohydrate-rich food or fluid (for example, banana, applesauce,\nor toast with peanut butter) one hour prior to exercise is beneficial.\nTable 8-1. Examples of pre-exercise meals\nTime Between Eating and\nPerformance Suggested Pre-Exercise Meals\n1 hour or less before exercise Cho"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p088:fixed:03",
+        "score": 0.8296,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 88,
+          "char_start": 1350,
+          "char_end": 1850,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "-Exercise Meals\n1 hour or less before exercise Choice of:\nFresh fruit such as apples, watermelon, peaches, grapes, oranges, or a\nsports energy bar and/or\n1⁄2–1 1⁄2 cups (4–12 ounces) of carbohydrate electrolyte beverage\n2–3 hours before exercise Choice of:\nFresh fruit, 100-percent fruit or vegetable juices and/or\nBreads, bagels, English muffins with limited amounts of butter or\nmargarine or cream cheese, yogurt, oatmeal, pancakes with limited\namounts of butter and syrup, or a sports energy bar a"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p088:fixed:00",
+        "score": 0.8195,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 88,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "Before Exercise\n8-32. Before strenuous activities, consuming carbohydrate-rich foods and fluids in the 2-4 hours before\nexercise helps to restore liver glycogen, increase muscle glycogen stores, and prevent hunger. Soldiers who\nlose appetite or feel nauseated shortly before training or ACFT should allow at least 3-4 hours between a\nmeal and performance. Eating before gastric distress occurs allows the athlete to get the calories needed and\ncan prevent vomiting related to nervousness. The same gu"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q08",
+    "split": "dev",
+    "type": "table",
+    "question": "In the endurance heart rate zones table, what percentage of maximum heart rate is zone 2, and what level of effort is it?",
+    "expected_answer": "60-70% of HRmax; aerobic endurance at a moderate level of effort.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 66,
+        "evidence_quote": "2 60–70 Aerobic endurance Moderate"
+      }
+    ],
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p066:fixed:03",
+        "score": 0.7717,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 66,
+          "char_start": 1350,
+          "char_end": 1850,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 6. Program Design"
+        },
+        "text": "t the daily results, causing the resting heart rate to increase.\n6-37. Heart rate monitoring during endurance exercise depends not only on the measurement device, but also\non knowing the target heart rate for the workout and unit training plan. Using the Karvonen formula, which\nis based on predicted maximum heart rate, a zone of 60–80 percent effort in a 30-year-old Soldier is between\n138 to 164 bpm (see table 6-6). As with the monitoring of the resting heart rate, the best results often come\nfr"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p066:fixed:00",
+        "score": 0.77,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 66,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 6. Program Design"
+        },
+        "text": "6-35. When Soldiers monitor heart rate, they can control the level of effort to keep the heart rate at a desired\nlevel. These levels, or zones, do not tell much about movement skill but can indicate which energy system is\nbeing utilized. Table 6-5 lists targeted heart rate zones and their associated physical fitness components.\nTable 6-5. Endurance heart rate zones, fitness components, and levels of effort\nZone % HRmax Fitness Component Level of\nEffort\n% of Total\nEndurance Training\nDistance /\nTi"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p066:fixed:01",
+        "score": 0.7224,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 66,
+          "char_start": 450,
+          "char_end": 950,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 6. Program Design"
+        },
+        "text": "Effort\n% of Total\nEndurance Training\nDistance /\nTime\n5 90–100 Anaerobic explosive speed Maximum 10 200 m / 0:30\n4 80–90 Anaerobic endurance Very Hard 30 400 m / 1:15\n3 70–80 Aerobic endurance Hard 10 800 m / 3:45\n2 60–70 Aerobic endurance Moderate 40 1MR / 7:30\n1 50–60 Active recovery Easy 10 2MR / 20:00\nHRmax heart rate maximum m meter MR mile run\n6-36. Resting heart rate monitoring can be a good way to measure recovery period immediately after a\nworkout and again the following morning. Consist"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q09",
+    "split": "dev",
+    "type": "metadata",
+    "question": "In the Nutritional Readiness chapter, how much caffeine from tea or coffee can a Soldier have without negatively affecting hydration status?",
+    "expected_answer": "A small amount, under 200 milligrams; more caffeine may negatively affect fluid balance.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 89,
+        "evidence_quote": "A small amount of caffeine in tea or coffee (< 200 milligrams) should not negatively affect hydration status, but if Soldiers drink more caffeine, their fluid balance may be negatively affected."
+      }
+    ],
+    "filter": {
+      "section": "Chapter 8. Nutritional Readiness"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": false,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p089:fixed:05",
+        "score": 0.8348,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 89,
+          "char_start": 2250,
+          "char_end": 2750,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "s from food and 75 –80 percent from beverages. Plain\nwater, coffee, tea, soups, fruits, and vegetables provide fluids to support hydration. A small amount of\ncaffeine in tea or coffee (< 200 milligrams) should not negatively affect hydration status, but if Soldiers drink\nmore caffeine, their fluid balance may be negatively affected.\n8-40. Typically, voluntary consumption of fluids —drinking to thirst —restores only some lost fluid.\nWhenever possible, dietitians should use weight loss to quantify"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p131:fixed:07",
+        "score": 0.785,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 131,
+          "char_start": 3150,
+          "char_end": 3371,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 11. Sleep Readiness"
+        },
+        "text": " time. Because it will interfere with the ability to initiate and/or maintain sleep, Soldiers should avoid\ncaffeine, if consistent with mission requirements, for at least 6 hours prior to an anticipated sleep opportunity."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p131:fixed:05",
+        "score": 0.7805,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 131,
+          "char_start": 2250,
+          "char_end": 2750,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 11. Sleep Readiness"
+        },
+        "text": "ep period\nmg milligram\nCaffeine Dose (200 milligrams)\n11-60. For many missions some degree of sleep loss is unavoidable. In these cases, Soldiers may best\naccomplish short-term sustainment of alertness and performance with judicious use of a non-sleep (stimulant)\nintervention. For a variety of reasons (including its wide availability, its familiarity to Soldiers, and its relative\nsafety and effectiveness), caffeine is recommended for this purpose. For most individuals under most\ncircumstances, t"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q10",
+    "split": "dev",
+    "type": "conditional",
+    "question": "When can a recruit increase the weight for a strength exercise, and by how much?",
+    "expected_answer": "After completing two repetitions over the repetition goal for two consecutive workouts; increase by five to ten percent for the next strength session.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 164,
+        "evidence_quote": "For strength training, if recruits can complete two repetitions over the repetition goal for an exercise for two consecutive workouts, they can increase the weight by five to ten percent for the next strength session."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p164:fixed:02",
+        "score": 0.7598,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 164,
+          "char_start": 900,
+          "char_end": 1400,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules"
+        },
+        "text": "provements. FSP physical training sessions follow this\nprinciple. Leaders can increase volume for trained recruits so long as they continue to follow the RPE\nguidelines in the FSP weekly templates (see table 14-1). For strength training, if recruits can complete two\nrepetitions over the repetition goal for an exercise for two consecutive workouts, they can increase the weight\nby five to ten percent for the next strength session.\nTable 14-1. Future Soldier Program schedule\nSession RPE Drills and "
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p086:fixed:07",
+        "score": 0.7551,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 86,
+          "char_start": 3150,
+          "char_end": 3650,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "hould not focus on losing weight; their current goal should focus\non fuel to perform. Once they have passed the physical standards, then they can shift their focus to weight\nloss.\nWEIGHT GAIN\n8-25. Combat missions and training require muscular strength and endurance. To optimize performance and\nprevent musculoskeletal injuries while attempting to gain weight, Soldiers need to combine an appropriate\nstrength training program with a well-planned nutritional strategy. The most effective method to i"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p045:fixed:04",
+        "score": 0.7485,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 45,
+          "char_start": 1800,
+          "char_end": 2300,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 4. Physiology"
+        },
+        "text": "O2) consumed per kilogram of body weight per minute, abbreviated to m L/kg/min. A recruit who scores\nblack on the OPAT has a predicted VO2 max of 33 mL/kg/min. Over time and with progressive training, that\nrecruit could improve his or her maximal aerobic capacity. Strength training typically results in little or no\nchange in VO2 max unless the Soldier uses longer sessions of circuit -type strength training with shorter rest\nintervals between exercises. Strength training improves physical perform"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": false,
+    "id": "q11",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which hormone is often called the stress hormone, and what does excessive production of it contribute to?",
+    "expected_answer": "Cortisol; excess contributes to chronic disease, poor executive cognitive function, and increased susceptibility to injury and infection.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 104,
+        "evidence_quote": "One of the hormones released as a result of this protective response is cortisol, often referred to as the “stress hormone.” Excessive production of cortisol contributes to chronic disease, poor executive cognitive function, and increased susceptibility to injury and infection."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p104:fixed:01",
+        "score": 0.7066,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 104,
+          "char_start": 450,
+          "char_end": 950,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 9. Mental Readiness"
+        },
+        "text": "esponse is cortisol, often referred to as the\n“stress hormone.” Excessive production of cortisol contributes to chronic disease, poor executive cognitive\nfunction, and increased susceptibility to injury and infection. When Soldiers are trained to control their\nactivation levels, they can mitigate the negative impact of this physiological reaction. It helps Soldiers if they\ncan understand how they react to stress at its initial onset. Table 9-2 outlines common physiological acute\nand chronic stre"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p158:fixed:03",
+        "score": 0.6488,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 158,
+          "char_start": 1350,
+          "char_end": 1850,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 13. Holistic Health and Fitness Coaching"
+        },
+        "text": "gy levels. The break from work does not have to be a long one for restored energy to happen.\nFAMILY, FRIENDS, AND COLLEAGUES\n13-22. A Soldier’s support network is perhaps the single most important variable in determining his or her\nphysical and emotional health. The stress hormone, cortisol, does not increase as much in stressful situations\nwhen people have supportive companions nearby. A simple hug from a friend or family member can be a\nstress-buffer, alleviating fears and increasing positive "
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p050:fixed:03",
+        "score": 0.6385,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 50,
+          "char_start": 1350,
+          "char_end": 1850,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 4. Physiology"
+        },
+        "text": "ic nervous system. The endocrine part is the collective\nname for glands that can release hormones into the bloodstream. Hormones are chemicals that can alter th e\nway an organ functions. For example, the body releases epinephrine (adrenaline that affects the heart) and\nnorepinephrine (affects the blood vessels) in response to physical stress.\n4-39. Like the peripheral nervous system, the autonomic nervous system also lies outside the central nervous\nsystem. As its names suggests, the autonomic s"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q12",
+    "split": "dev",
+    "type": "direct",
+    "question": "How does the talk test distinguish moderate-intensity from vigorous-intensity aerobic activity?",
+    "expected_answer": "At moderate intensity a person can talk but not sing; at vigorous intensity they cannot say more than a few words without pausing for a breath.",
+    "gold": [
+      {
+        "source_id": "hhs-pag-2018",
+        "page": 60,
+        "evidence_quote": "As a rule of thumb, a person doing moderate-intensity aerobic activity can talk, but not sing, during the activity. A person doing vigorous-intensity activity cannot say more than a few words without pausing for a breath."
+      },
+      {
+        "source_id": "hhs-pag-2018",
+        "page": 71,
+        "evidence_quote": "As a rule of thumb, a person doing moderate-intensity aerobic activity can talk, but not sing, during the activity. A person doing vigorous-intensity activity cannot say more than a few words without pausing for a breath."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "hhs-pag-2018:p060:fixed:05",
+        "score": 0.8862,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 60,
+          "char_start": 2250,
+          "char_end": 2689,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 4. Active Adults"
+        },
+        "text": "on of the session; and no precise relative intensity at\nwhich the maximal-effort component should be performed.\nSpotlight on Aerobic Activities: A Tried and True Favorite\nand Two Increasingly Popular Options\nTalk Test\nAs a rule of thumb, a person doing\nmoderate-intensity aerobic activity can\ntalk, but not sing, during the activity.\nA person doing vigorous-intensity\nactivity cannot say more than a few\nwords without pausing for a breath."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hhs-pag-2018:p060:fixed:00",
+        "score": 0.8609,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 60,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 4. Active Adults"
+        },
+        "text": "When using relative intensity, people pay attention to how\nphysical activity affects their heart rate and breathing. As\na rule of thumb, a person doing moderate-intensity aerobic\nactivity can talk, but not sing, during the activity. A person\ndoing vigorous-intensity activity cannot say more than a few\nwords without pausing for a breath.\nOlder or less fit adults may find that activities in Table 4-1\nlabeled as moderate intensit\ny are experienced as vigorous\nintensity. These adults will gain healt"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hhs-pag-2018:p071:fixed:03",
+        "score": 0.8075,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 71,
+          "char_start": 1350,
+          "char_end": 1850,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 5. Active Older Adults"
+        },
+        "text": "ople generally require a\nhigher lev\nel of effort than more fit people to do the same activity. Relative intensity can be estimated\nusing a scale of 0 to 10, where sitting is 0 and the highest\nlevel of effort possible is 10.\nWhen using relative intensity, people pay attention to how\nphysical activit\ny affects their heart rate and breathing. As\na rule of thumb, a person doing moderate-intensity aerobic\nactivity can talk, but not sing, during the activity. A person\ndoing vigorous-intensity activity"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": false,
+    "id": "q13",
+    "split": "dev",
+    "type": "metadata",
+    "question": "According to the Physical Activity Guidelines for Americans, how much physical activity should children and adolescents aged 6 through 17 do?",
+    "expected_answer": "60 minutes (1 hour) or more of moderate-to-vigorous physical activity daily.",
+    "gold": [
+      {
+        "source_id": "hhs-pag-2018",
+        "page": 48,
+        "evidence_quote": "Children and adolescents ages 6 through 17 years should do 60 minutes (1 hour) or more of moderate-to-vigorous physical activity daily"
+      }
+    ],
+    "filter": {
+      "publisher": "HHS"
+    },
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "filter_compliant": false,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "hhs-pag-2018:p048:fixed:03",
+        "score": 0.848,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 48,
+          "char_start": 1350,
+          "char_end": 1850,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 3. Active Children and Adolescents"
+        },
+        "text": "duce their physical activity, making it all the more important for\nadults to provide age-appropriate, enjoyable opportunities for physical activity and to encourage youth to\nparticipate.\nKey Guidelines for School-Aged Children and Adolescents\nIt is important to provide young people opportunities and encouragement to participate\nin physical activities that are appropriate for their age, that are enjoyable, and that\noffer variety.\nChildren and adolescents ages 6 through 17 years should do 60 minut"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "who-pasb-2020:p011:fixed:00",
+        "score": 0.8196,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 11,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Executive summary"
+        },
+        "text": "CHILDREN AND ADOLESCENTS\n(aged 5–17 years)\nIt is recommended that:\nChildren and adolescents should do at least\nan average of 60 minutes per day of moderate-\nto vigorous-intensity, mostly aerobic, physical\nactivity, across the week.\nStrong recommendation, moderate certainty evidence\nVigorous-intensity aerobic activities, as well\nas those that strengthen muscle and bone,\nshould be incorporated at least 3 days a week.\nStrong recommendation, moderate certainty evidence\n• Doing some physical activity"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hhs-pag-2018:p048:fixed:04",
+        "score": 0.8139,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 48,
+          "char_start": 1800,
+          "char_end": 2300,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 3. Active Children and Adolescents"
+        },
+        "text": "escents ages 6 through 17 years should do 60 minutes (1 hour) or\nmore of moderate-to-vigorous physical activity daily:\n• Aerobic: Most of the 60 minutes or more per day should be either moderate- or\nvigorous-intensity aerobic physical activity and should include vigorous-intensity\nphysical activity on at least 3 days a week.\n• Muscle-strengthening: As part of their 60 minutes or more of daily physical\nactivity, children and adolescents should include muscle-strengthening physical\nactivity on at "
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q14",
+    "split": "dev",
+    "type": "metadata",
+    "question": "According to the WHO guidelines, how much physical activity should children and adolescents aged 5–17 do?",
+    "expected_answer": "At least an average of 60 minutes per day of moderate- to vigorous-intensity, mostly aerobic, physical activity across the week.",
+    "gold": [
+      {
+        "source_id": "who-pasb-2020",
+        "page": 35,
+        "evidence_quote": "Children and adolescents should do at least an average of 60 minutes per day of moderate- to vigorous-intensity, mostly aerobic, physical activity, across the week."
+      },
+      {
+        "source_id": "who-pasb-2020",
+        "page": 11,
+        "evidence_quote": "Children and adolescents should do at least an average of 60 minutes per day of moderate- to vigorous-intensity, mostly aerobic, physical activity, across the week."
+      }
+    ],
+    "filter": {
+      "publisher": "WHO"
+    },
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "filter_compliant": true,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "who-pasb-2020:p034:fixed:00",
+        "score": 0.8407,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 34,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Recommendations"
+        },
+        "text": "The public health recommendations presented in\nthe WHO Guidelines on physical activity and sedentary\nbehaviour are for all populations and age groups ranging\nfrom 5 years to 65 years and older, irrespective of gender,\ncultural background or socioeconomic status, and are\nrelevant for people of all abilities.\nThe new guidelines are presented by age group and\nbehaviour (physical activity and sedentary). For each\nset of recommendations, an introductory statement\nsummarizes the health outcomes associ"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "who-pasb-2020:p011:fixed:00",
+        "score": 0.8345,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 11,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Executive summary"
+        },
+        "text": "CHILDREN AND ADOLESCENTS\n(aged 5–17 years)\nIt is recommended that:\nChildren and adolescents should do at least\nan average of 60 minutes per day of moderate-\nto vigorous-intensity, mostly aerobic, physical\nactivity, across the week.\nStrong recommendation, moderate certainty evidence\nVigorous-intensity aerobic activities, as well\nas those that strengthen muscle and bone,\nshould be incorporated at least 3 days a week.\nStrong recommendation, moderate certainty evidence\n• Doing some physical activity"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "who-pasb-2020:p027:fixed:00",
+        "score": 0.8215,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 27,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Background"
+        },
+        "text": "The guidelines have been developed for children and\nadolescents (aged 5–17 years), adults (aged 18–64\nyears), older adults (aged 65 years and above), and\ninclude for the first time specific recommendations on\nphysical activity for subpopulations such as pregnant\nwomen and those living with chronic conditions\nor disability. Recommendations are made for each\nspecific age group and subpopulation, to provide\nthose working with particular communities easy\naccess to the relevant information. Providing"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q15",
+    "split": "dev",
+    "type": "direct",
+    "question": "What target did the WHO Global action plan on physical activity 2018–2030 set for physical inactivity?",
+    "expected_answer": "Reduce physical inactivity by 15% by 2030.",
+    "gold": [
+      {
+        "source_id": "who-pasb-2020",
+        "page": 83,
+        "evidence_quote": "Global action plan on physical activity 2018–2030 set a target to reduce physical inactivity by 15% by 2030"
+      },
+      {
+        "source_id": "who-pasb-2020",
+        "page": 10,
+        "evidence_quote": "Global action plan on physical activity 2018–2030 set a target to reduce physical inactivity by 15% by 2030"
+      },
+      {
+        "source_id": "who-pasb-2020",
+        "page": 25,
+        "evidence_quote": "to achieve a 15% relative reduction in the global prevalence of physical inactivity in adults and adolescents by 2030"
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "who-pasb-2020:p083:fixed:00",
+        "score": 0.8832,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 83,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Adoption, dissemination, implementation and evaluation"
+        },
+        "text": "The WHO Global action plan on physical activity\n2018–2030 set a target to reduce physical inactivity\nby 15% by 2030, and outlined 20 recommended\npolicy actions and interventions (14). These included\nrecommending that all countries implement\nsustained national public education and awareness\ncampaigns and the integration of physical activity\ncounselling programmes into primary and secondary\nhealth care. Other recommendations included the\ncreation of appropriate environments for physical\nactivity, "
+      },
+      {
+        "rank": 2,
+        "chunk_id": "who-pasb-2020:p025:fixed:05",
+        "score": 0.8129,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 25,
+          "char_start": 2250,
+          "char_end": 2750,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Background"
+        },
+        "text": " The Global action plan on physical\nactivity 2018–2030 (14) sets out 4 strategic objectives and\n20 policy actions to achieve a 15% relative reduction in\nthe global prevalence of physical inactivity in adults and\nadolescents by 2030.\nIn 2010, WHO published the Global recommendations on\nphysical activity for health (1), the first population-based\npublic health guidelines for children and adolescents,\nadults and older adults. In 2018, the World Health\nAssembly, in resolution WHA71.6, 1 called for W"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "who-pasb-2020:p026:fixed:05",
+        "score": 0.7595,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 26,
+          "char_start": 2250,
+          "char_end": 2750,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Background"
+        },
+        "text": "lationship between\nphysical activity and health outcomes in these groups.\nIn the Global action plan on physical activity 2018–2030\n(14), action 4.1 calls for WHO to develop and disseminate\nglobal recommendations for physical activity and\nsedentary behaviours in children under 5 years of\nage, young people, adults, older adults and specific\nsubpopulations, such as pregnant women, people living\nwith chronic conditions and disability. Updating and\nbroadening the scope of the guidelines, as requested"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q21",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is VO2 max?",
+    "expected_answer": "The maximal oxygen consumption: the highest amount of oxygen that can be used during maximal aerobic effort.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 45,
+        "evidence_quote": "The highest amount of oxygen that can be used during maxima l aerobic effort—endurance training— is called the maximal oxygen consumption, or VO2 max."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p045:fixed:04",
+        "score": 0.7058,
+        "hit": false,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 45,
+          "char_start": 1800,
+          "char_end": 2300,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 4. Physiology"
+        },
+        "text": "O2) consumed per kilogram of body weight per minute, abbreviated to m L/kg/min. A recruit who scores\nblack on the OPAT has a predicted VO2 max of 33 mL/kg/min. Over time and with progressive training, that\nrecruit could improve his or her maximal aerobic capacity. Strength training typically results in little or no\nchange in VO2 max unless the Soldier uses longer sessions of circuit -type strength training with shorter rest\nintervals between exercises. Strength training improves physical perform"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p045:fixed:03",
+        "score": 0.7034,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 45,
+          "char_start": 1350,
+          "char_end": 1850,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 4. Physiology"
+        },
+        "text": "ion to nutrition before and during\nprolonged aerobic activity. For example, to avoid degrading their performance on the 2 -Mile Run event,\nSoldiers avoid depleting glycogen caused by the anaerobic effort of the Sprint-Drag-Carry.\nVO2 MAX\n4-11. The highest amount of oxygen that can be used during maxima l aerobic effort—endurance training—\nis called the maximal oxygen consumption, or VO2 max. It is measured as volume (V) in milliliters of oxygen\n(O2) consumed per kilogram of body weight per minut"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p048:fixed:09",
+        "score": 0.6001,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 48,
+          "char_start": 4050,
+          "char_end": 4550,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 4. Physiology"
+        },
+        "text": "rson is working at 50 –70 percent relative workload (of VO2 max), he or she\nwill be able to continue this work for a prolonged period. If the relative workload is greater than 70 percent,\nan individual will not be able to continue this task for long, and the time needed to recover will increase.\nSince a higher relative workload may be associated with an increased potential for musculoskeletal injuries,\nleaders need to extend the Soldier ’s rest/recovery time after very high intensity workouts. A"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q22",
+    "split": "dev",
+    "type": "direct",
+    "question": "How much carbohydrate and protein should be consumed after exercise, and how soon?",
+    "expected_answer": "50-100 grams of carbohydrate and 15-25 grams of high-quality protein within 30-60 minutes after exercise.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 89,
+        "evidence_quote": "It is critical to provide the body with 50 –100 grams of carbohydrate (2 grams of carbohydrates per kilogram of body weight) and 15 –25 grams of high -quality protein (5 –9 grams protein per 100 grams of carbohydrates) within 30 –60 minutes after exercise"
+      }
+    ],
+    "filter": null,
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p088:fixed:05",
+        "score": 0.8223,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 88,
+          "char_start": 2250,
+          "char_end": 2750,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "Exercise\n8-34. Consuming carbohydrates during exercise lasting greater than 60 minutes can delay the onset of fatigue\nand improve endurance capacity by maintaining blood glucose levels. Table 8-2 outlines the recommended\ncarbohydrate intake during exercise.\nTable 8-2. Recommended carbohydrate intake during exercise\nType of Activity Recommended Carbohydrate Intake\nExercise lasting less than 45 minutes None necessary or practical\nHigh-intensity exercise lasting 45 to 75 minutes Small amounts of sp"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p089:fixed:01",
+        "score": 0.8122,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 89,
+          "char_start": 450,
+          "char_end": 950,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "cogen synthesis\n(restoring glycogen in the liver and muscle).\n8-36. It is critical to provide the body with 50 –100 grams of carbohydrate (2 grams of carbohydrates per\nkilogram of body weight) and 15 –25 grams of high -quality protein (5 –9 grams protein per 100 grams of\ncarbohydrates) within 30 –60 minutes after exercise . This protein helps replenish muscle glycogen stores ,\nstimulate muscle protein synthesis, and repair damage caused by intense exercise. If unable to eat a meal\nwithin 60 minu"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p088:fixed:00",
+        "score": 0.7929,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 88,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "Before Exercise\n8-32. Before strenuous activities, consuming carbohydrate-rich foods and fluids in the 2-4 hours before\nexercise helps to restore liver glycogen, increase muscle glycogen stores, and prevent hunger. Soldiers who\nlose appetite or feel nauseated shortly before training or ACFT should allow at least 3-4 hours between a\nmeal and performance. Eating before gastric distress occurs allows the athlete to get the calories needed and\ncan prevent vomiting related to nervousness. The same gu"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q23",
+    "split": "dev",
+    "type": "direct",
+    "question": "What are the signs of heatstroke, and how urgent is it?",
+    "expected_answer": "No sweating, hot dry skin, rapid pulse, rapid breathing, dizziness or confusion, unconsciousness, seizure, or coma; it is a medical emergency (dial 911).",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 164,
+        "evidence_quote": "Heatstroke (medical emergency, dial 911): no sweating, hot dry skin, rapid pulse, rapid breathing, dizziness or confusion, unconsciousness, seizure, or coma."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p164:fixed:00",
+        "score": 0.7564,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 164,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules"
+        },
+        "text": "• Heat exhaustion (requires medical attention): excessive thirst,\nfatigue, lack of coordination, increased sweating, cool or wet\nskin, dizziness, confusion, or combination of symptoms.\n• Heatstroke (medical emergency, dial 911): no sweating, hot dry\nskin, rapid pulse, rapid breathing, dizziness or confusion,\nunconsciousness, seizure, or coma.\n• Hypothermia: shivering, loss of judgment, slurred speech,\ndrowsiness, or muscle weakness.\n• Frostbite: white or greyish -yellow skin color, skin that fee"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p163:fixed:07",
+        "score": 0.6749,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 163,
+          "char_start": 3150,
+          "char_end": 3328,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules"
+        },
+        "text": "ptoms, immediately stop the\nphysical activity and seek appropriate medical attention:\n• Heat cramps: muscular twitching, cramping, or muscular\nspasms in the arms, legs, or trunk."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p090:fixed:08",
+        "score": 0.6528,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 90,
+          "char_start": 3600,
+          "char_end": 3669,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "reatment of heat illness, and most especially hyponatremia incidents."
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q24",
+    "split": "dev",
+    "type": "metadata",
+    "question": "In the Holistic Health and Fitness Schedules chapter, what is the maximum fluid intake per hour during sustained exertion?",
+    "expected_answer": "No more than 1 1/2 quarts (48 ounces) per hour.",
+    "gold": [
+      {
+        "source_id": "fm7-22-2020",
+        "page": 163,
+        "evidence_quote": "Be sure to limit intake to no more than 11⁄2 quarts per hour (48 ounces) during sustained exertion."
+      }
+    ],
+    "filter": {
+      "section": "Chapter 14. Holistic Health and Fitness Schedules"
+    },
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": false,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "fm7-22-2020:p163:fixed:04",
+        "score": 0.7542,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 163,
+          "char_start": 1800,
+          "char_end": 2300,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 14. Holistic Health and Fitness Schedules"
+        },
+        "text": "8–10 glasses of water per day.\nHYPONATREMIA\nIt is possible to drink too much water and become overhydrated or\nhyponatremic. Be sure to limit intake to no more than 11⁄2 quarts\nper hour (48 ounces) during sustained exertion.\nClothing\n14-13. Leaders ensure that the clothing is comfortable for the climate and bright or reflective enough for\noutdoor activity conducted in the dark on roadways or sidewalks. Recruits should never wear rubberized or\nplastic suits, facemasks , or other restrictive breath"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "fm7-22-2020:p089:fixed:04",
+        "score": 0.7289,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 89,
+          "char_start": 1800,
+          "char_end": 2300,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 8. Nutritional Readiness"
+        },
+        "text": "e severely impacts mental function, mood, and energy level.\nFluid Recommendations\n8-38. Fluid requirements can vary from 2–16 liters per day depending on workload, level of heat stress, and\nsweat rate. Sweat loss varies depending on age, training, and acclimation status, exercise intensity and\nduration, air temperature, humidity, wind velocity, cloud cover, clothing, and individual sweat rates.\n8-39. On average, 20–25 percent of fluid intake comes from food and 75 –80 percent from beverages. Pla"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "fm7-22-2020:p045:fixed:03",
+        "score": 0.7187,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "fm7-22-2020",
+          "source": "data/pdf/fm7-22-2020.pdf",
+          "page": 45,
+          "char_start": 1350,
+          "char_end": 1850,
+          "publisher": "US Army",
+          "year": 2020,
+          "section": "Chapter 4. Physiology"
+        },
+        "text": "ion to nutrition before and during\nprolonged aerobic activity. For example, to avoid degrading their performance on the 2 -Mile Run event,\nSoldiers avoid depleting glycogen caused by the anaerobic effort of the Sprint-Drag-Carry.\nVO2 MAX\n4-11. The highest amount of oxygen that can be used during maxima l aerobic effort—endurance training—\nis called the maximal oxygen consumption, or VO2 max. It is measured as volume (V) in milliliters of oxygen\n(O2) consumed per kilogram of body weight per minut"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q25",
+    "split": "dev",
+    "type": "direct",
+    "question": "What do the guidelines recommend for preschool-aged children (ages 3 through 5)?",
+    "expected_answer": "They should be physically active throughout the day to enhance growth and development.",
+    "gold": [
+      {
+        "source_id": "hhs-pag-2018",
+        "page": 47,
+        "evidence_quote": "Preschool-aged children (ages 3 through 5 years) should be physically active throughout the day to enhance growth and development."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "hhs-pag-2018:p047:fixed:05",
+        "score": 0.7504,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 47,
+          "char_start": 2250,
+          "char_end": 2750,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 3. Active Children and Adolescents"
+        },
+        "text": " light, moderate, or vigorous intensity. This\nis the average amount of activity observed among children of this age and is consistent with guidelines from\nCanada, the United Kingdom, and the Commonwealth of Australia.\nKey Guidelines for Preschool-Aged Children\nPreschool-aged children (ages 3 through 5 years) should be physically active throughout\nthe day to enhance growth and development.\nAdult caregivers of preschool-aged children should encourage active play that includes a\nvarie\nty of activit"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "hhs-pag-2018:p025:fixed:03",
+        "score": 0.744,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 25,
+          "char_start": 1350,
+          "char_end": 1850,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans"
+        },
+        "text": "so the 2018 Guidelines are designed for those ages 3 years and older. Physical activity is\nnecessary for healthy growth and development of infants and young children of all ages.\nPutting the Guidelines Into Practice\nAssessing Whether Physical Activity Programs Are Consistent With the Guidelines\nPrograms that provide opportunities for physical activity, such as classes or community activities, can help\npeople meet the key guidelines. These programs do not have to provide all, or even most, of the"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hhs-pag-2018:p025:fixed:02",
+        "score": 0.7332,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 25,
+          "char_start": 900,
+          "char_end": 1400,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans"
+        },
+        "text": "he best way to be physically active is to be active for life. Therefore, the Guidelines takes a lifespan approach\nand provides recommendations for three broad age groups—children and adolescents, adults, and older adults.\nThe 2008 Guidelines provided recommendations for children, adolescents, and adults, covering individuals\nages 6 year\ns and older. Recent research has provided support for recommendations for children ages 3\nthrough 5 years, and so the 2018 Guidelines are designed for those ages"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q26",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What immediate benefits can one bout of moderate-to-vigorous physical activity bring on the same day?",
+    "expected_answer": "Reduced blood pressure, improved insulin sensitivity, improved sleep, reduced anxiety symptoms, and improved aspects of cognition.",
+    "gold": [
+      {
+        "source_id": "hhs-pag-2018",
+        "page": 20,
+        "evidence_quote": "A single session of moderate-to-vigorous physical activity can reduce blood pressure, improve insulin sensitivity, improve sleep, reduce anxiety symptoms, and improve some aspects of cognition on the day that it is performed."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "hhs-pag-2018:p020:fixed:00",
+        "score": 0.8517,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 20,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 1. Introducing the Physical Activity Guidelines for Americans"
+        },
+        "text": "Timing of Benefits\nA single session of moderate-to-vigorous physical activity can reduce blood pressure, improve insulin\nsensitivity, improve sleep, reduce anxiety symptoms, and improve some aspects of cognition on the day that it\nis performed. Most of these improvements become even larger with the regular performance of moderate-to-\nvigorous physical activity. Other benefits, such as disease risk reduction and improved physical function, accrue\nwithin days to weeks after consistently being more"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "who-pasb-2020:p014:fixed:08",
+        "score": 0.7719,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 14,
+          "char_start": 3600,
+          "char_end": 4100,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Executive summary"
+        },
+        "text": "\nmore thanmore than\nFor additional health benefits:\n150\n300 150\nminutes\nto to\nmoderate-intensity\naerobic physical\nactivity\nvigorous-intensity\naerobic physical\nactivity\nor an equivalent combination throughout the week\nminutes\nor\nat leastAt least\n75\nmuscle-\nstrengthening\nactivities at\nmoderate or greater\nintensity that\ninvolve all major\nmuscle groups.\nFor additional health benefits:\n2\ndays\na week\nOn at least\nvaried\nmulticomponent\nphysical activity that\nemphasizes functional\nbalance and strength\ntr"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "hhs-pag-2018:p031:fixed:00",
+        "score": 0.7715,
+        "hit": false,
+        "on_gold_page": false,
+        "metadata": {
+          "document_id": "hhs-pag-2018",
+          "source": "data/pdf/hhs-pag-2018.pdf",
+          "page": 31,
+          "char_start": 0,
+          "char_end": 500,
+          "publisher": "HHS",
+          "year": 2018,
+          "section": "Chapter 2. Physical Activity and Health"
+        },
+        "text": "The Health Benefits of Physical Activity\nResearch demonstrates that participating in regular moderate-to-vigorous physical activity provides many\nhealth benefits. These benefits are summarized in Table 2-1. Some benefits of physical activity can be achieved\nimmediately, such as reduced feelings of anxiety, reduced blood pressure, and improvements in sleep, some\naspects of cognitive function, and insulin sensitivity. Other benefits, such as increased cardiorespiratory fitness,\nincreased muscular "
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "filter_applied": null,
+    "evidence_in_one_chunk": true,
+    "id": "q27",
+    "split": "dev",
+    "type": "direct",
+    "question": "How is sedentary behaviour defined?",
+    "expected_answer": "Time spent sitting, reclining or lying with low energy expenditure while awake.",
+    "gold": [
+      {
+        "source_id": "who-pasb-2020",
+        "page": 39,
+        "evidence_quote": "Sedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awake"
+      },
+      {
+        "source_id": "who-pasb-2020",
+        "page": 25,
+        "evidence_quote": "sedentary behaviour is defined as any waking behaviour while in a sitting, reclining or lying posture with low energy expenditure"
+      },
+      {
+        "source_id": "who-pasb-2020",
+        "page": 48,
+        "evidence_quote": "sedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awake"
+      },
+      {
+        "source_id": "who-pasb-2020",
+        "page": 56,
+        "evidence_quote": "sedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awake"
+      },
+      {
+        "source_id": "who-pasb-2020",
+        "page": 61,
+        "evidence_quote": "sedentary behaviour is defined as time spent sitting or lying with low energy expenditure while awake"
+      },
+      {
+        "source_id": "who-pasb-2020",
+        "page": 68,
+        "evidence_quote": "Sedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awake"
+      },
+      {
+        "source_id": "hhs-pag-2018",
+        "page": 45,
+        "evidence_quote": "sedentary behavior refers to any waking behavior characterized by a low level of energy expenditure (less than or equal to 1.5 METs) while sitting, reclining, or lying."
+      }
+    ],
+    "filter": null,
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "filter_compliant": null,
+    "top3": [
+      {
+        "rank": 1,
+        "chunk_id": "who-pasb-2020:p039:fixed:03",
+        "score": 0.8862,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 39,
+          "char_start": 1350,
+          "char_end": 1726,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Recommendations: Children and adolescents (aged 5-17 years)"
+        },
+        "text": "rtainty evidence\nAvailable online at https://apps.who.int/iris/bitstream/handle/10665/336657/9789240015111-eng.pdf\nSedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awake,\nin the context of educational, home, and community settings and transportation.\nCHILDREN AND ADOLESCENTS\n(aged 5–17 years)\nSEDENTARY BEHAVIOUR\nRECOMMENDATION"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "who-pasb-2020:p068:fixed:04",
+        "score": 0.8709,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 68,
+          "char_start": 1800,
+          "char_end": 2243,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)"
+        },
+        "text": "0 Global recommendations on physical activity for health (1). The scope\nof this new recommendation on sedentary behaviours in cancer survivors and those people living with hypertension,\ntype-2 diabetes and HIV.\nSedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awake, in the context\nof occupational, educational, home and community settings, and transportation.\nSEDENTARY BEHAVIOUR\nRECOMMENDATION"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "who-pasb-2020:p048:fixed:06",
+        "score": 0.8548,
+        "hit": true,
+        "on_gold_page": true,
+        "metadata": {
+          "document_id": "who-pasb-2020",
+          "source": "data/pdf/who-pasb-2020.pdf",
+          "page": 48,
+          "char_start": 2700,
+          "char_end": 3131,
+          "publisher": "WHO",
+          "year": 2020,
+          "section": "Recommendations: Adults (aged 18-64 years)"
+        },
+        "text": "l activity.\nStrong recommendation, moderate certainty evidence\nAvailable online at https://apps.who.int/iris/bitstream/handle/10665/336657/9789240015111-eng.pdf\nFor adults, sedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while\nawake, in the context of occupational, educational, home and community settings, and transportation.\nSEDENTARY BEHAVIOUR\nRECOMMENDATION\nADULTS\n(aged 18–64 years)"
+      }
+    ]
+  }
+]
