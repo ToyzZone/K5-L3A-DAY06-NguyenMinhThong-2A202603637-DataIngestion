@@ -80,10 +80,11 @@ Phân bố điểm coherence: A có 10 chunk điểm 1; B có 9 chunk điểm 2 
 
 - Trace top-3 và chỉ số: thư mục `results/dev/` và `results/test/` (mỗi cấu hình một file `traces_*.json`, kèm `summary.json`).
 - Coherence: [results/audit/coherence.json](../../results/audit/coherence.json), 10 trang cách đều theo thứ tự corpus, lấy chunk chứa ký tự giữa trang. Vị trí được chốt trước khi có điểm truy xuất. Nhãn và lý do do Claude Code đề xuất theo thang 0–2 của GUIDE.md; học viên tự chấm lại từng ca và đồng ý với cả 20 nhãn.
-- Metadata và grounding: [results/audit/metadata.json](../../results/audit/metadata.json) và [results/audit/grounding.json](../../results/audit/grounding.json), 5 câu test đầu theo ID (q16–q20). Quy tắc này được ghi vào repo trước khi chạy test; bảng chấm không hiển thị cờ hit. Nhãn do Claude Code đề xuất; học viên xem lại và đồng ý với toàn bộ.
+- Metadata và grounding: [results/audit/metadata.json](../../results/audit/metadata.json) và [results/audit/grounding.json](../../results/audit/grounding.json), 5 câu test đầu theo ID (q16–q20). Quy tắc này được ghi vào repo trước khi chạy test; bảng chấm không hiển thị cờ hit. Nhãn do Claude Code đề xuất; học viên tự chấm lại từng ca và đồng ý với toàn bộ.
 - Cách kiểm tra metadata: 45 bản ghi top-3 (15 mỗi cấu hình) ứng với 30 chunk khác nhau. Với mỗi chunk, đối chiếu trên PDF gốc ba việc: text có nằm trên đúng trang vật lý của đúng file; `section` có khớp tiêu đề in trên trang; `publisher` và `year` có khớp trang bìa hoặc trang bản quyền.
 - Cách chấm grounding: xét cả top-3 của mỗi câu theo thang 0–2 của GUIDE.md. Top-3 của C giống hệt B ở cả 5 câu nên nhận cùng nhãn.
 - Đối chiếu tự động (không thay cho chấm tay): cả 50 chunk khác nhau trong trace test đều có text nằm trên đúng trang vật lý của đúng file PDF; `section`, `publisher`, `year` khớp với sources.json.
+- Trang diễn giải có tương tác: [lab_walkthrough.html](../lab_walkthrough.html), một file HTML, tải về rồi mở bằng trình duyệt. Trang đi lại bài làm theo thứ tự đã diễn ra và cho xem từng câu trong 30 câu hỏi: đáp án, bằng chứng, vị trí A và B cắt trang gold, nguyên văn top-3 của A, B, C. Dữ liệu trên trang lấy từ chính các file nêu ở trên, không có số liệu mới.
 
 **Nạp lại.** Chunk ID ổn định theo tài liệu, trang, chiến lược và thứ tự. Mỗi lần nạp ghi đè ID đã có và xóa ID không còn trong phiên bản mới, trong một transaction. Pipeline nạp hai lần liên tiếp trong mỗi lần chạy và dừng nếu số dòng thay đổi. Qua ba lần chạy đầy đủ, số dòng giữ nguyên (A 2.407, B 1.805) và trace dev của hai lần chạy giống nhau từng byte.
 
@@ -158,4 +159,4 @@ Phân bố điểm coherence: A có 10 chunk điểm 1; B có 9 chunk điểm 2 
 - **Benchmark:** đọc lại cả 30 câu hỏi cùng đáp án và evidence.
 - **Kiểm soát tiến độ:** quyết định thời điểm commit, push và chuyển bước.
 
-**Công cụ AI và cách kiểm tra.** Claude Code hỗ trợ viết code pipeline, soạn nháp bộ câu hỏi, đề xuất nhãn coherence, metadata, grounding và soạn nháp báo cáo này. Các kiểm tra tự động đã chạy: evidence của 30 câu so với corpus, tự kiểm tra cho chunking, cách chấm hit và vector store, chạy lại để so trace. Phần kiểm tra bằng tay do học viên làm, như liệt kê ở trên.
+**Công cụ AI và cách kiểm tra.** Claude Code hỗ trợ viết code pipeline, soạn nháp bộ câu hỏi, đề xuất nhãn coherence, metadata, grounding, soạn nháp báo cáo này và dựng trang lab_walkthrough.html từ các file kết quả. Các kiểm tra tự động đã chạy: evidence của 30 câu so với corpus, tự kiểm tra cho chunking, cách chấm hit và vector store, chạy lại để so trace. Phần kiểm tra bằng tay do học viên làm, như liệt kê ở trên.
